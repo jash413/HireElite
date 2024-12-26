@@ -3,7 +3,6 @@ export type TechIcon =
   | 'nodejs' 
   | 'nextjs' 
   | 'vuejs' 
-  | 'typescript' 
   | 'angular' 
   | 'express' 
   | 'nestjs' 
