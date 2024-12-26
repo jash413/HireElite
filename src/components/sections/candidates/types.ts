@@ -6,7 +6,9 @@ export type Skill =
   | 'GraphQL'
   | 'AWS'
   | 'MongoDB'
-  | 'PostgreSQL';
+  | 'PostgreSQL'
+  | 'Express'
+  | 'TailwindCSS';
 
 export interface Candidate {
   id: string;
