@@ -43,18 +43,18 @@ export default function Hero() {
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center mb-16">
             <button className="group relative overflow-hidden px-8 py-4 text-lg font-medium text-white bg-gradient-to-r from-blue-600 to-purple-600 rounded-full shadow-lg hover:shadow-xl transition-all duration-300">
-              <span className="relative z-10 flex items-center justify-center">
+              <a href='#contact' className="relative z-10 flex items-center justify-center">
                 Hire Your Expert Now
                 <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
-              </span>
+              </a>
               <div className="absolute inset-0 bg-gradient-to-r from-blue-700 to-purple-700 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left" />
             </button>
             
             <button className="group px-8 py-4 text-lg font-medium text-gray-900 dark:text-white bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm border-2 border-gray-200 dark:border-gray-700 rounded-full hover:shadow-xl transition-all duration-300">
-              <span className="flex items-center">
+              <a href='#how-we-work' className="flex items-center">
                 <Code2 className="w-5 h-5 mr-2 group-hover:rotate-12 transition-transform" />
                 View Our Process
-              </span>
+              </a>
             </button>
           </div>
 
