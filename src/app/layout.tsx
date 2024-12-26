@@ -20,6 +20,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <link 
+          href="https://assets.calendly.com/assets/external/widget.css" 
+          rel="stylesheet" 
+        />
+        <script 
+          src="https://assets.calendly.com/assets/external/widget.js" 
+          async
+        />
+      </head>
       <body className="antialiased min-h-screen flex flex-col" suppressHydrationWarning>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
           <Navbar />
