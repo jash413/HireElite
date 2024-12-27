@@ -1,4 +1,5 @@
 export type TechIcon = 
+  | 'vercel'  
   | 'react' 
   | 'nodejs' 
   | 'nextjs' 
