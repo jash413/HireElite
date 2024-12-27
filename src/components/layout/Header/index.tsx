@@ -16,7 +16,7 @@ export default function Header() {
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-between h-20">
           <a href="#" className="text-2xl font-bold text-blue-600 dark:text-blue-400">
-            DevHire
+            HireElite
           </a>
 
           <nav className="hidden md:flex items-center space-x-8">

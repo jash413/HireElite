@@ -26,7 +26,7 @@ export default function TestimonialsSection() {
             </h2>
             
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              See what our clients say about working with DevHire developers.
+              See what our clients say about working with HireElite developers.
               Real stories from real companies.
             </p>
           </FadeIn>

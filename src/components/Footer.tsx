@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
           <div>
-            <h3 className="text-xl font-bold mb-4">DevHire</h3>
+            <h3 className="text-xl font-bold mb-4">HireElite</h3>
             <p className="text-gray-400">
               Your trusted partner for on-demand JavaScript and TypeScript developers.
             </p>
@@ -45,7 +45,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} DevHire. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} HireElite. All rights reserved.</p>
         </div>
       </div>
     </footer>

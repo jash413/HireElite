@@ -2,7 +2,7 @@ import { type Testimonial } from './types';
 
 export const testimonials: Testimonial[] = [
   {
-    quote: "DevHire's developers integrated seamlessly with our team and helped us launch our product ahead of schedule. Their technical expertise is unmatched.",
+    quote: "HireElite's developers integrated seamlessly with our team and helped us launch our product ahead of schedule. Their technical expertise is unmatched.",
     author: "Sarah Johnson",
     role: "CTO at TechFlow",
     avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=300&h=300",
@@ -16,7 +16,7 @@ export const testimonials: Testimonial[] = [
     company: "DataScale"
   },
   {
-    quote: "Working with DevHire has transformed our development process. Their developers are not just skilled, but also great communicators.",
+    quote: "Working with HireElite has transformed our development process. Their developers are not just skilled, but also great communicators.",
     author: "Emily Rodriguez",
     role: "Product Manager at CloudNine",
     avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=300&h=300",

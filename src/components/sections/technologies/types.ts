@@ -1,6 +1,6 @@
 export interface Technology {
     name: string;
-    icon: 'react' | 'nodejs' | 'nextjs' | 'vuejs' | 'angular' | 'express' | 'nestjs' | 'graphql' | 'mongodb' | 'postgresql' | 'prisma' | 'netlify' | 'docker' | 'kubernetes' | 'aws';
+    icon: 'vercel'|'react' | 'nodejs' | 'nextjs' | 'vuejs' | 'angular' | 'express' | 'nestjs' | 'graphql' | 'mongodb' | 'postgresql' | 'prisma' | 'netlify' | 'docker' | 'kubernetes' | 'aws';
     displayName: string;
     description: string;
   }

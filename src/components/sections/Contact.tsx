@@ -147,7 +147,7 @@ export default function Contact() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
             <div className="flex items-center">
               <Mail className="w-6 h-6 text-blue-600 dark:text-blue-400 mr-3" />
-              <span className="text-gray-600 dark:text-gray-300">contact@devhire.com</span>
+              <span className="text-gray-600 dark:text-gray-300">info@hireelite.dev</span>
             </div>
             <div className="flex items-center">
               <Phone className="w-6 h-6 text-blue-600 dark:text-blue-400 mr-3" />

@@ -29,7 +29,7 @@ export default function Navbar() {
             href="#"
             className="text-2xl font-bold text-blue-600 dark:text-blue-400"
           >
-            DevHire
+            HireElite
           </a>
 
           <nav className="hidden md:flex items-center space-x-1">

@@ -75,7 +75,7 @@ export const deploymentTechnologies: Technology[] = [
     },
     {
         name: 'vercel',
-        icon: 'nextjs',
+        icon: 'vercel',
         displayName: 'Vercel',
         description: 'Platform optimized for frontend frameworks and static sites'
     },

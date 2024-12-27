@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: '/api/',
     },
-    sitemap: 'https://devhire.com/sitemap.xml',
+    sitemap: 'https://hireelite.dev/sitemap.xml',
   };
 }

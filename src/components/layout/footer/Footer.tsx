@@ -23,7 +23,7 @@ export default function Footer() {
             className="lg:col-span-2"
           >
             <h2 className="text-2xl font-bold text-white mb-4">
-              DevHire
+              HireElite
             </h2>
             <p className="text-gray-400 mb-6">
               Your trusted partner for on-demand JavaScript and TypeScript developers.
@@ -55,7 +55,7 @@ export default function Footer() {
         >
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © {new Date().getFullYear()} DevHire. All rights reserved.
+              © {new Date().getFullYear()} HireElite. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-gray-400 hover:text-white text-sm">

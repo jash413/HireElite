@@ -13,12 +13,12 @@ export const contactInfo: ContactInfoItem[] = [
   {
     icon: Mail,
     label: 'Email',
-    value: 'contact@devhire.com'
+    value: 'info@hireelite.dev'
   },
   {
     icon: Phone,
     label: 'Phone',
-    value: '+1 (555) 123-4567'
+    value: '(+91) 832-005-2869'
   },
   {
     icon: MapPin,

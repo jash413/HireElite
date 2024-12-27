@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import { ContactFormData } from '@/types/contact';
 import { validateContactForm } from '@/lib/validation/contactForm';
+import { saveContactForm } from '@/lib/services/contactService';
 
 export async function POST(request: Request) {
   try {
@@ -15,18 +16,13 @@ export async function POST(request: Request) {
       );
     }
 
-    // Store in database (implement your database logic here)
-    // For now, we'll just simulate success
+    // Save to MongoDB
+    await saveContactForm(data);
     
     return NextResponse.json(
       { 
         success: true,
-        message: 'Contact form submitted successfully',
-        data: {
-          id: Date.now(),
-          ...data,
-          createdAt: new Date().toISOString()
-        }
+        message: 'Contact form submitted successfully'
       },
       { status: 200 }
     );

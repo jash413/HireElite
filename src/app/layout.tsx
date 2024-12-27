@@ -7,8 +7,8 @@ import '../styles/globals.css';
 
 export const metadata: Metadata = {
   title: {
-    default: 'DevHire - Top JavaScript & TypeScript Developers',
-    template: '%s | DevHire'
+    default: 'HireElite - Top JavaScript & TypeScript Developers',
+    template: '%s | HireElite'
   },
   description: 'Hire top JavaScript and TypeScript developers for your projects. Expert React, Node.js, and full-stack developers with risk-free trial period.',
 };

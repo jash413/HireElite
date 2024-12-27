@@ -20,7 +20,7 @@ export default function Header() {
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
-            <a href="#" className="text-2xl font-bold text-blue-600 dark:text-blue-400 py-5 px-5">DevHire</a>
+            <a href="#" className="text-2xl font-bold text-blue-600 dark:text-blue-400 py-5 px-5">HireElite</a>
           </div>
 
           {/* Desktop Navigation */}
