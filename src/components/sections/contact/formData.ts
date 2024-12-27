@@ -18,7 +18,7 @@ export const contactInfo: ContactInfoItem[] = [
   {
     icon: Phone,
     label: 'Phone',
-    value: '(+91) 832-005-2869'
+    value: '(+91) 832-005-2869, (+91) 955-816-1920'
   },
   {
     icon: MapPin,

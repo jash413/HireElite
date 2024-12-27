@@ -47,35 +47,6 @@ export default function ContactInfo() {
           );
         })}
       </div>
-
-      {/* Office Hours */}
-      <div className="relative">
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-500 to-purple-500 rounded-xl blur opacity-20" />
-        <div className="relative p-6 bg-white/50 dark:bg-gray-800/50 backdrop-blur-sm rounded-xl border border-gray-200 dark:border-gray-700">
-          <div className="flex items-center mb-4">
-            <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-blue-500 to-purple-500 flex items-center justify-center text-white">
-              <Clock className="w-6 h-6" />
-            </div>
-            <h3 className="ml-4 text-lg font-semibold text-gray-900 dark:text-white">
-              Office Hours
-            </h3>
-          </div>
-          <div className="space-y-2">
-            <div className="flex justify-between text-gray-600 dark:text-gray-300">
-              <span>Monday - Friday</span>
-              <span>9:00 AM - 6:00 PM EST</span>
-            </div>
-            <div className="flex justify-between text-gray-600 dark:text-gray-300">
-              <span>Saturday</span>
-              <span>10:00 AM - 4:00 PM EST</span>
-            </div>
-            <div className="flex justify-between text-gray-600 dark:text-gray-300">
-              <span>Sunday</span>
-              <span>Closed</span>
-            </div>
-          </div>
-        </div>
-      </div>
     </motion.div>
   );
 }
