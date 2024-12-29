@@ -15,7 +15,7 @@ export const hiringModels: HiringModel[] = [
     icon: Clock,
     title: 'Hourly Contract',
     description: 'Perfect for small tasks or specific features that need expert attention.',
-    price: 'From $75/hour',
+    price: 'From $35/hour',
     features: [
       'No minimum commitment',
       'Weekly billing',
@@ -28,7 +28,7 @@ export const hiringModels: HiringModel[] = [
     icon: UserCheck,
     title: 'Full-Time Developer',
     description: 'Dedicated developer working exclusively on your project.',
-    price: 'From $8,000/month',
+    price: 'From $4,000/month',
     features: [
       '160 hours per month',
       'Priority support',
@@ -42,13 +42,26 @@ export const hiringModels: HiringModel[] = [
     icon: UserMinus,
     title: 'Part-Time Resource',
     description: 'Flexible part-time development support for your projects.',
-    price: 'From $4,000/month',
+    price: 'From $2,000/month',
     features: [
       '80 hours per month',
       'Flexible scheduling',
       'Weekly sync meetings',
       'Progress tracking',
       'Easy hour tracking'
+    ]
+  },
+  {
+    icon: Calendar,
+    title: 'Monthly Retainer',
+    description: 'Reserved development capacity with priority access.',
+    price: 'From $3,000/month',
+    features: [
+      'Guaranteed availability',
+      'Rollover unused hours',
+      'Priority queue',
+      'Monthly planning',
+      'Flexible allocation'
     ]
   },
   {
@@ -62,19 +75,6 @@ export const hiringModels: HiringModel[] = [
       'Custom team structure',
       'Seamless integration',
       'Enterprise support'
-    ]
-  },
-  {
-    icon: Calendar,
-    title: 'Monthly Retainer',
-    description: 'Reserved development capacity with priority access.',
-    price: 'From $6,000/month',
-    features: [
-      'Guaranteed availability',
-      'Rollover unused hours',
-      'Priority queue',
-      'Monthly planning',
-      'Flexible allocation'
     ]
   }
 ];

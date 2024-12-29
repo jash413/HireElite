@@ -71,10 +71,10 @@ export default function ModelCard({
             </div>
 
             <button className="group/btn w-full px-6 py-3 text-sm font-medium text-blue-600 dark:text-blue-400 border-2 border-blue-600 dark:border-blue-400 rounded-xl hover:bg-blue-50 dark:hover:bg-blue-900/50 transition-colors">
-              <span className="flex items-center justify-center">
+              <a href='#contact' className="flex items-center justify-center">
                 Get Started
                 <ArrowRight className="w-4 h-4 ml-2 group-hover/btn:translate-x-1 transition-transform" />
-              </span>
+              </a>
             </button>
           </div>
         </div>
