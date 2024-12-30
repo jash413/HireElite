@@ -133,7 +133,7 @@ export async function generateCV(candidate: Candidate): Promise<string> {
       </head>
       <body>
         <div class="brand">
-          DevHire | Top JavaScript & TypeScript Developers
+          HireElite | Top JavaScript & TypeScript Developers
         </div>
 
         <header class="header">
@@ -210,7 +210,7 @@ export async function generateCV(candidate: Candidate): Promise<string> {
         </section>
 
         <footer>
-          Generated via DevHire.com on ${formatDate(new Date())}
+          Generated via HireElite.com on ${formatDate(new Date())}
         </footer>
       </body>
     </html>
