@@ -27,7 +27,7 @@ export const contactInfo: ContactInfoItem[] = [
   },
   {
     icon: MessageSquare,
-    label: 'Live Chat',
+    label: 'Support',
     value: 'Available 24/7'
   }
 ];
