@@ -15,7 +15,7 @@ export default function Home() {
       <ExpertiseShowcase />
       <HowWeWork />
       <Technologies />
-      <CandidatesSection />
+      {/* <CandidatesSection /> */}
       <HiringModels />
       <WhyUs />
       <TestimonialsSection />
