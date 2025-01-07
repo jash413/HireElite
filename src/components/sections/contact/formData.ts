@@ -23,7 +23,7 @@ export const contactInfo: ContactInfoItem[] = [
   {
     icon: MapPin,
     label: 'Location',
-    value: 'New York, NY 10001'
+    value: 'India, IN 395009'
   },
   {
     icon: MessageSquare,
