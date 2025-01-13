@@ -26,7 +26,7 @@ export default function Navbar() {
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-between h-20">
           <a 
-            href="#"
+            href="https://hireelite.dev/#"
             className="text-2xl font-bold text-blue-600 dark:text-blue-400"
           >
             HireElite

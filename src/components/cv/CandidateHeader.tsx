@@ -40,7 +40,7 @@ export default function CandidateHeader({ candidate }: { candidate: Candidate })
               onClick={() => {
                 // @ts-ignore - Calendly is loaded from external script
                 window.Calendly?.initPopupWidget({
-                  url: 'https://calendly.com/webwisesolution/30min'
+                  url: 'https://calendly.com/hireelite-info/30min'
                 });
               }}
               className="px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full hover:shadow-lg transition-shadow"

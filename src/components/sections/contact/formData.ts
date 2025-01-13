@@ -18,16 +18,16 @@ export const contactInfo: ContactInfoItem[] = [
   {
     icon: Phone,
     label: 'Phone',
-    value: '(+91) 832-005-2869, (+91) 955-816-1920'
+    value: '(+91) 832-005-2869'
   },
   {
     icon: MapPin,
     label: 'Location',
-    value: 'New York, NY 10001'
+    value: 'India, IN 395009'
   },
   {
     icon: MessageSquare,
-    label: 'Live Chat',
+    label: 'Support',
     value: 'Available 24/7'
   }
 ];

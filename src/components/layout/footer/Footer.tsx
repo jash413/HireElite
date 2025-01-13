@@ -40,10 +40,11 @@ export default function Footer() {
               index={index}
             />
           ))}
+          {/* Newsletter */}
+          <Newsletter />
         </div>
 
-        {/* Newsletter */}
-        <Newsletter />
+
 
         {/* Bottom Bar */}
         <motion.div

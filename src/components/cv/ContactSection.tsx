@@ -7,7 +7,7 @@ export default function ContactSection() {
   const openCalendly = () => {
     // @ts-ignore - Calendly is loaded from external script
     window.Calendly?.initPopupWidget({
-      url: 'https://calendly.com/webwisesolution/30min'
+      url: 'https://calendly.com/hireelite-info/30min'
     });
   };
 
