@@ -35,7 +35,6 @@ export interface Candidate {
   id: string;
   name: string;
   title: string;
-  avatar: string;
   location: string;
   yearsOfExperience: string;
   availability: string;

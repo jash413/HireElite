@@ -140,11 +140,6 @@ export async function generateCV(candidate: Candidate): Promise<string> {
           <div class="header-content">
             <h1>${candidate.name}</h1>
             <h2>${candidate.title}</h2>
-            <div class="contact-info">
-              <div>${candidate.contact.email}</div>
-              <div>${candidate.contact.phone}</div>
-              <div>${candidate.contact.location}</div>
-            </div>
           </div>
         </header>
 
@@ -175,7 +170,7 @@ export async function generateCV(candidate: Candidate): Promise<string> {
             <div class="experience-item">
               <div class="experience-header">
                 <div>
-                  <div class="company">${job.title} at ${job.company}</div>
+                  <div class="company">${job.title}</div>
                 </div>
                 <div class="period">${job.period}</div>
               </div>

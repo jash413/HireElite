@@ -10,15 +10,6 @@ export default function CandidateHeader({ candidate }: { candidate: Candidate })
       
       <div className="relative bg-white/50 dark:bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8 border border-gray-200 dark:border-gray-700">
         <div className="flex flex-col md:flex-row gap-8 items-center md:items-start">
-          <div className="relative">
-            <div className="absolute inset-0 bg-gradient-to-br from-blue-500 to-purple-500 rounded-full blur opacity-20" />
-            <img
-              src={candidate.avatar}
-              alt={candidate.name}
-              className="relative w-32 h-32 rounded-full object-cover border-4 border-white dark:border-gray-700"
-            />
-          </div>
-
           <div className="flex-1 text-center md:text-left">
             <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">
               {candidate.name}
