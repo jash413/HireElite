@@ -1,167 +1,670 @@
-import { type Candidate } from '@/types/candidate';
+import { type Candidate } from "@/types/candidate";
 
 export const candidates: Candidate[] = [
   {
-    id: '1',
-    name: 'Alex Thompson',
-    title: 'Senior Full-Stack Developer',
-    avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=300&h=300',
-    location: 'New York, NY',
-    yearsOfExperience: '8 Years',
-    availability: 'Available in 2 weeks',
-    summary: 'Experienced full-stack developer specializing in React and Node.js with a proven track record of delivering scalable applications. Passionate about clean code and performance optimization.',
+    id: "1",
+    name: "Sagar",
+    title: "Lead Senior Frontend Developer",
+    avatar:
+      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=300&h=300",
+    location: "Remote",
+    yearsOfExperience: "6+ Years",
+    availability: "Immediately",
+    summary:
+      "Experienced Lead Senior Frontend Developer with over 6 years of expertise in creating high-performance, scalable, and user-centric web applications. Specialized in React, TypeScript, and modern frontend technologies with a deep understanding of web performance, clean code practices, and UI/UX principles. Strong background in leading teams, architecting solutions, and optimizing complex applications for both speed and maintainability.",
     skills: [
       {
-        category: 'Frontend',
-        items: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Redux', 'GraphQL']
+        category: "Frontend Development",
+        items: [
+          "React",
+          "Next.js",
+          "TypeScript",
+          "Redux / Redux Toolkit",
+          "Tailwind CSS",
+          "GraphQL",
+          "Material UI",
+          "Styled Components",
+          "Web Accessibility",
+          "Responsive Design",
+          "Atomic Design Principles",
+        ],
       },
       {
-        category: 'Backend',
-        items: ['Node.js', 'Express', 'NestJS', 'PostgreSQL', 'MongoDB', 'Redis']
+        category: "Performance Optimization",
+        items: [
+          "Code Splitting",
+          "Lazy Loading",
+          "Tree Shaking",
+          "Service Workers",
+          "Performance Auditing (Lighthouse)",
+          "SEO Optimization",
+          "Critical Rendering Path Optimization",
+        ],
       },
       {
-        category: 'DevOps',
-        items: ['AWS', 'Docker', 'Kubernetes', 'CI/CD', 'Terraform']
-      }
+        category: "Leadership & Collaboration",
+        items: [
+          "Team Leadership",
+          "Agile & Scrum Methodologies",
+          "Code Reviews & Mentorship",
+          "Stakeholder Management",
+          "Cross-functional Collaboration",
+          "System Design & Architecture",
+        ],
+      },
+      {
+        category: "DevOps & CI/CD (Familiar)",
+        items: [
+          "Git",
+          "Docker",
+          "AWS (EC2, S3, Lambda)",
+          "CI/CD Pipelines",
+          "Terraform",
+          "Jenkins",
+        ],
+      },
     ],
     workExperience: [
       {
-        title: 'Senior Full-Stack Developer',
-        company: 'TechCorp Inc.',
-        period: '2020 - Present',
+        title: "Lead Senior Frontend Developer",
+        company: "TechCorp Inc.",
+        projectTitle: "LMS Portal",
         achievements: [
-          'Led development of microservices architecture serving 1M+ users',
-          'Reduced application load time by 60% through optimization',
-          'Mentored junior developers and established coding standards'
+          "Led the front-end development of a large-scale Learning Management System (LMS), improving user engagement and accessibility.",
+          "Architected and implemented reusable component libraries with a focus on scalability and maintainability.",
+          "Optimized front-end performance by utilizing lazy loading, code splitting, and efficient state management (Redux).",
+          "Guided a team of frontend developers, conducted code reviews, and mentored junior developers to elevate the overall team’s performance.",
+          "Worked closely with UX/UI designers to implement responsive, high-quality user interfaces, maintaining consistency across platforms.",
         ],
-        technologies: ['React', 'Node.js', 'TypeScript', 'AWS']
+        technologies: [
+          "React",
+          "Redux",
+          "Next.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "Material UI",
+          "SASS",
+          "GraphQL",
+          "REST APIs",
+          "Web Accessibility",
+        ],
       },
       {
-        title: 'Full-Stack Developer',
-        company: 'DataFlow Systems',
-        period: '2018 - 2020',
+        title: "Senior Frontend Developer",
+        company: "TechCorp Inc.",
+        projectTitle: "Telecom Marketplace",
         achievements: [
-          'Developed real-time analytics dashboard used by Fortune 500 clients',
-          'Implemented automated testing reducing bugs by 40%'
+          "Led the frontend development of an e-commerce platform, enabling a seamless user experience for B2B telecom services.",
+          "Optimized complex web pages for performance, reducing load times by over 40%.",
+          "Collaborated with backend engineers to design and implement REST APIs, improving data exchange efficiency.",
+          "Mentored junior developers and conducted knowledge-sharing sessions on modern web development practices.",
         ],
-        technologies: ['React', 'Express', 'MongoDB', 'Redis']
-      }
-    ],
-    projects: [
-      {
-        title: 'E-commerce Platform',
-        description: 'Built a scalable e-commerce platform handling 100K+ daily transactions',
-        period: '2022',
-        technologies: ['Next.js', 'NestJS', 'PostgreSQL'],
-        github: 'https://github.com/alexthompson/ecommerce',
-        live: 'https://demo-ecommerce.com'
+        technologies: [
+          "React",
+          "Next.js",
+          "Redux",
+          "Tailwind CSS",
+          "GraphQL",
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "AWS",
+          "REST APIs",
+        ],
       },
       {
-        title: 'Analytics Dashboard',
-        description: 'Real-time analytics dashboard with complex data visualizations',
-        period: '2021',
-        technologies: ['React', 'D3.js', 'Node.js'],
-        github: 'https://github.com/alexthompson/analytics'
-      }
+        title: "Frontend Engineer",
+        company: "TechCorp Inc.",
+        projectTitle: "Talent Engagement",
+        achievements: [
+          "Built and optimized the frontend of a talent engagement platform, significantly improving the user experience and streamlining workflows.",
+          "Integrated complex UI components and managed state across large-scale applications using React and Redux.",
+          "Ensured application responsiveness across multiple devices, adhering to modern frontend best practices and mobile-first design.",
+          "Created reusable UI components, reducing development time for future features.",
+        ],
+        technologies: [
+          "React",
+          "Redux",
+          "Next.js",
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "SASS",
+          "Bootstrap",
+          "Node.js",
+        ],
+      },
+      {
+        title: "Senior UI Developer",
+        company: "TechCorp Inc.",
+        projectTitle: "Online Dating & Chat Application",
+        achievements: [
+          "Led front-end development and implemented React-based UI for a real-time messaging and dating application with over 100,000 active users.",
+          "Optimized the user interface for speed and responsiveness, achieving an average performance score of 90+ on Google Lighthouse.",
+          "Worked on implementing WebSocket and state management using React Query, ensuring smooth and real-time communication for users.",
+        ],
+        technologies: [
+          "React",
+          "Next.js",
+          "Redux",
+          "React Query",
+          "Tailwind CSS",
+          "Web Socket",
+          "AWS",
+          "GraphQL",
+        ],
+      },
+      {
+        title: "Frontend Architect",
+        company: "xyz",
+        projectTitle: "ChatConcept",
+        achievements: [
+          "Designed and architected the frontend of a comprehensive chat application, leading both the technical direction and the frontend team.",
+          "Implemented advanced features such as real-time messaging, file uploads with AWS S3, and seamless socket integration using Socket.IO.",
+          "Conducted architectural reviews and made key decisions on frontend structure, ensuring long-term maintainability and scalability.",
+        ],
+        technologies: [
+          "React",
+          "Redux",
+          "TypeScript",
+          "Next.js",
+          "Socket.IO",
+          "MongoDB",
+          "AWS S3",
+          "REST API",
+          "Express",
+        ],
+      },
+      {
+        title: "Senior Frontend Developer",
+        company: "xyz",
+        projectTitle: "AV Compliance",
+        achievements: [
+          "Developed the frontend of a compliance tracking application for regulatory requirements with custom reporting features.",
+          "Integrated OCR system to parse and extract text from uploaded documents, providing automated data input for users.",
+          "Ensured application compliance with WCAG standards to cater to users with disabilities.",
+        ],
+        technologies: [
+          "React",
+          "Next.js",
+          "TypeScript",
+          "GraphQL",
+          "D3.js",
+          "CSS3",
+          "AntD",
+          "Redis",
+          "REST APIs",
+        ],
+      },
+      {
+        title: "Lead Frontend Developer",
+        company: "xyz",
+        projectTitle: "AV Biz App",
+        achievements: [
+          "Led the development of a cross-platform mobile application for booking AV services, streamlining user booking experiences.",
+          "Integrated Firebase for real-time database syncing and Cloud Functions for seamless backend communication.",
+          "Collaborated with UX/UI designers to ensure a polished and accessible mobile interface.",
+        ],
+        technologies: [
+          "React Native",
+          "Firebase",
+          "JavaScript",
+          "Expo",
+          "MomentJS",
+          "AntD",
+        ],
+      },
+      {
+        title: "Senior Frontend Developer",
+        company: "xyz",
+        projectTitle: "LMS Desktop App",
+        achievements: [
+          "Developed a desktop application using ElectronJS to manage learning resources and administrative workflows.",
+          "Integrated real-time data handling using Redux and managed complex interactions between frontend and backend systems.",
+        ],
+        technologies: [
+          "Next.js",
+          "Redux",
+          "ElectronJS",
+          "HTML5",
+          "JavaScript",
+          "SCSS",
+        ],
+      },
     ],
     education: [
       {
-        degree: 'M.S. Computer Science',
-        school: 'Stanford University',
-        period: '2016 - 2018',
-        description: 'Focus on Distributed Systems and Machine Learning'
+        degree: "M.S. Computer Science",
+        description:
+          "Focus on Distributed Systems, Machine Learning, and Cloud Computing",
       },
-      {
-        degree: 'B.S. Computer Science',
-        school: 'MIT',
-        period: '2012 - 2016'
-      }
     ],
-    contact: {
-      email: 'alex@example.com',
-      phone: '+1 (555) 123-4567',
-      location: 'New York, NY',
-      linkedin: 'https://linkedin.com/in/alexthompson',
-      github: 'https://github.com/alexthompson'
-    }
   },
   {
-    id: '2',
-    name: 'Sarah Chen',
-    title: 'Frontend Architecture Expert',
-    avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=300&h=300',
-    location: 'San Francisco, CA',
-    yearsOfExperience: '6 Years',
-    availability: 'Available Immediately',
-    summary: 'Frontend specialist with expertise in building performant and accessible web applications. Strong focus on component architecture, design systems, and modern frontend practices.',
+    id: "2",
+    name: "Apurva",
+    title: "Front-End Developer",
+    avatar:
+      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=300&h=300",
+    location: "Remote",
+    yearsOfExperience: "3+ Years",
+    availability: "immediately",
+    summary:
+      "3+ years of hands-on experience in front-end development, proficient in using JavaScript, React JS, and Next JS. Extensive experience in creating user-facing features, building reusable components, and optimizing applications for speed and scalability. Proven ability to work independently, take initiative, and collaborate effectively within diverse team environments. Recognized for a meticulous and detail-oriented approach, excelling in delivering high-quality code and improving development efficiency.",
     skills: [
       {
-        category: 'Frontend',
-        items: ['React', 'Vue.js', 'TypeScript', 'Next.js', 'Tailwind CSS', 'Webpack']
+        category: "Frontend Development",
+        items: [
+          "JavaScript",
+          "TypeScript",
+          "React JS",
+          "Next JS",
+          "Tailwind CSS",
+          "Redux",
+          "GraphQL",
+        ],
       },
       {
-        category: 'Testing & Tools',
-        items: ['Jest', 'Cypress', 'Storybook', 'Figma', 'Git']
+        category: "Performance Optimization",
+        items: [
+          "Code Splitting",
+          "Lazy Loading",
+          "Tree Shaking",
+          "Performance Auditing (Lighthouse)",
+        ],
       },
       {
-        category: 'Performance',
-        items: ['Web Vitals', 'Lighthouse', 'PWA', 'SEO']
-      }
+        category: "API Integration",
+        items: ["REST APIs", "GraphQL", "Web Socket"],
+      },
+      {
+        category: "UI/UX Design",
+        items: [
+          "Responsive Design",
+          "User Interface Design",
+          "Cross-browser Compatibility",
+        ],
+      },
     ],
     workExperience: [
       {
-        title: 'Lead Frontend Developer',
-        company: 'InnovateTech',
-        period: '2021 - Present',
+        title:
+          "Frontend Developer - Web Application for RV and Caravan Rentals",
+        company: "Freelance/Contract",
+        projectTitle: "2023 - Present",
         achievements: [
-          'Architected and implemented a component library used by 50+ developers',
-          'Improved core web vitals scores by 40% across all products',
-          'Led frontend architecture decisions for enterprise applications'
+          "Responsible for the front-end development of a web application for RV and caravan rentals.",
+          "Collaborated with designers and developers to implement new features and optimize UI for performance and speed.",
+          "Implemented Redux Query for state management and ensured high scalability of the application.",
         ],
-        technologies: ['React', 'TypeScript', 'Next.js', 'Storybook']
+        technologies: [
+          "Next JS",
+          "Tailwind CSS",
+          "Redux Query",
+          "GraphQL",
+          "AWS",
+          "Sendbird Chat SDK",
+          "Shufti Pro KYC Verification",
+        ],
       },
       {
-        title: 'Senior Frontend Developer',
-        company: 'WebScale Solutions',
-        period: '2019 - 2021',
+        title: "Frontend Developer - Admin Panel for E-Scooter Rental Service",
+        company: "Freelance/Contract",
+        projectTitle: "2022 - 2023",
         achievements: [
-          'Built responsive web applications serving millions of users',
-          'Implemented A/B testing framework increasing conversion by 25%'
+          "Designed and implemented reusable components for the admin panel to improve maintainability and speed.",
+          "Optimized the application for high performance, ensuring it scales well for future use.",
+          "Provided technical support during deployment to ensure smooth transitions to live environments.",
         ],
-        technologies: ['Vue.js', 'Nuxt.js', 'JavaScript', 'SCSS']
-      }
-    ],
-    projects: [
-      {
-        title: 'Design System',
-        description: 'Enterprise-grade design system and component library',
-        period: '2023',
-        technologies: ['React', 'TypeScript', 'Storybook'],
-        github: 'https://github.com/sarahchen/design-system'
+        technologies: ["Next JS", "Tailwind CSS", "Redux Toolkit", "AWS"],
       },
       {
-        title: 'Performance Monitoring',
-        description: 'Real-time performance monitoring dashboard for web applications',
-        period: '2022',
-        technologies: ['Next.js', 'Web Vitals', 'D3.js'],
-        github: 'https://github.com/sarahchen/perf-monitor',
-        live: 'https://perf-monitor-demo.com'
-      }
+        title: "Frontend Developer - Trading Analysis Web Application",
+        company: "Freelance/Contract",
+        projectTitle: "2021 - 2022",
+        achievements: [
+          "Ensured cross-device and cross-browser compatibility, making the application accessible on all devices.",
+          "Managed large datasets in real-time for interactive chart updates.",
+          "Integrated new features into the existing application without breaking the workflow.",
+        ],
+        technologies: ["Highcharts", "React JS", "JavaScript", "HTML5", "CSS3"],
+      },
+      {
+        title: "Frontend Developer - Live & Virtual Events Hosting Platform",
+        company: "Freelance/Contract",
+        projectTitle: "2020 - 2021",
+        achievements: [
+          "Designed and implemented intuitive and user-friendly interfaces for event creation and management.",
+          "Integrated various third-party APIs for payment processing, live updates, and notifications.",
+          "Collaborated closely with the UX team to ensure a seamless and enjoyable user experience.",
+        ],
+        technologies: [
+          "React JS",
+          "JavaScript",
+          "Tailwind CSS",
+          "Redux Toolkit",
+        ],
+      },
+      {
+        title: "Frontend Developer - Online Dating and Chat Application",
+        company: "Freelance/Contract",
+        projectTitle: "2020 - 2021",
+        achievements: [
+          "Responsible for front-end development and implementation of new features in a real-time dating and chat application.",
+          "Integrated real-time messaging features using WebSocket and managed state with Redux Query.",
+          "Optimized the application for speed and performance using modern web technologies.",
+        ],
+        technologies: [
+          "Next JS",
+          "Tailwind CSS",
+          "React Query",
+          "REST APIs",
+          "Web Socket",
+          "AWS",
+        ],
+      },
     ],
     education: [
       {
-        degree: 'B.S. Computer Science',
-        school: 'UC Berkeley',
-        period: '2014 - 2018',
-        description: 'Focus on Human-Computer Interaction'
-      }
+        degree: "B. Tech - Information and Communication Technology (ICT)",
+        description: "Focus on Web Development and Software Engineering.",
+      },
     ],
-    contact: {
-      email: 'sarah@example.com',
-      phone: '+1 (555) 234-5678',
-      location: 'San Francisco, CA',
-      linkedin: 'https://linkedin.com/in/sarahchen',
-      github: 'https://github.com/sarahchen'
-    }
-  }
+  },
+  {
+    id: "3",
+    name: "Pratik",
+    title: "Front-End Developer",
+    avatar:
+      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=300&h=300",
+    location: "Remote",
+    yearsOfExperience: "8 years",
+    availability: "Available in 2 weeks",
+    summary:
+      "8 years of hands-on experience in front-end development, specializing in React.js, Next.js, custom state management, and UI/UX optimization. Expertise in building complex, scalable web applications with high performance and a focus on maintainability. Strong leadership skills, having led teams and provided technical insights during agile development cycles. Adept at creating seamless, cross-browser compatible experiences, and ensuring high-quality deliverables with automated testing.",
+    skills: [
+      {
+        category: "Frontend Development",
+        items: [
+          "React.js",
+          "Next.js",
+          "JavaScript ES6",
+          "TypeScript",
+          "Redux",
+          "Web Components",
+          "React Hooks",
+          "Custom State Management",
+        ],
+      },
+      {
+        category: "Testing & Debugging",
+        items: [
+          "Jest",
+          "React Testing Library",
+          "Cypress",
+          "Unit Testing",
+          "Code Debugging",
+        ],
+      },
+      {
+        category: "Backend Integration",
+        items: [
+          "Node.js",
+          "Express.js",
+          "RESTful APIs",
+          "GraphQL",
+          "MongoDB",
+          "MySQL",
+          "AWS Lambda",
+          "PostgreSQL",
+        ],
+      },
+      {
+        category: "UI/UX Design",
+        items: [
+          "Material UI",
+          "Ant Design",
+          "Styled Components",
+          "Bootstrap",
+          "D3.js",
+          "Charting and Data Visualization",
+        ],
+      },
+    ],
+    workExperience: [
+      {
+        title: "Frontend Developer - Mixed Media Art Analytics Dashboard",
+        company: "Freelance/Contract",
+        projectTitle: "2022 - Present",
+        achievements: [
+          "Developed both frontend and backend for the art analytics platform in an agile environment.",
+          "Implemented JWT token-based authentication and role-based access control for secure data handling.",
+          "Integrated Google Cloud Storage for secure media uploads, and managed CSV-based data propagation and validation.",
+        ],
+        technologies: [
+          "React",
+          "Next.js",
+          "React Hooks",
+          "Redux",
+          "D3.js",
+          "Express.js",
+          "Node.js",
+          "MongoDB",
+          "TypeScript",
+          "Google Cloud Storage",
+        ],
+      },
+      {
+        title: "Frontend Developer - Recruitment as a Service Platform",
+        company: "Freelance/Contract",
+        projectTitle: "2021 - 2022",
+        achievements: [
+          "Developed frontend components for a recruitment platform using GraphQL for data fetching.",
+          "Worked with the design team to address UX challenges and deliver an optimal user experience.",
+          "Collaborated with hiring managers to gather insights for feature development and user flow.",
+        ],
+        technologies: [
+          "React",
+          "Apollo-GraphQL",
+          "React Hooks",
+          "Redux",
+          "Material UI",
+          "Express.js",
+          "Node.js",
+          "TypeScript",
+          "Cypress",
+        ],
+      },
+      {
+        title: "Frontend Developer - AI-based Math Learning Platform",
+        company: "Freelance/Contract",
+        projectTitle: "2020 - 2021",
+        achievements: [
+          "Developed a user-friendly interface with accessibility features (a11y) for school children.",
+          "Designed and deployed a Python-based question generator on AWS Lambda for personalized learning experiences.",
+          "Collaborated with tutors to enhance tutor dashboards and reporting features for students.",
+        ],
+        technologies: [
+          "Node.js",
+          "React",
+          "Ant Design",
+          "React Hooks",
+          "Redux",
+          "Express.js",
+          "JavaScript ES6",
+          "AWS Lambda (Python)",
+          "Docker",
+        ],
+      },
+      {
+        title: "Frontend Developer - Cryptocurrency Tracker Dashboard",
+        company: "Freelance/Contract",
+        projectTitle: "2019 - 2020",
+        achievements: [
+          "Built a cryptocurrency dashboard with real-time data updates from the CoinMarketCap API.",
+          "Implemented data visualizations using scatter plots and ApexCharts for real-time market analysis.",
+          "Developed a custom real-time data handler for Bittrex API using Python for continuous data updates.",
+        ],
+        technologies: [
+          "React",
+          "Redux",
+          "D3.js",
+          "ApexCharts",
+          "HTML5",
+          "CSS3",
+          "RESTful APIs",
+          "MySQL",
+          "Express.js",
+          "Node.js",
+        ],
+      },
+      {
+        title: "Frontend Developer - Internal Train Travel Monitoring System",
+        company: "Freelance/Contract",
+        projectTitle: "2018 - 2019",
+        achievements: [
+          "Developed an internal data visualization system for railway transportation, improving staff decision-making.",
+          "Ensured application responsiveness across devices and optimized data handling for scalability.",
+          "Secured the deployed system with Apache Nginx reverse proxy for secure access and deployment.",
+        ],
+        technologies: [
+          "React",
+          "JavaScript ES6",
+          "React Hooks",
+          "D3.js",
+          "Django",
+          "Django Rest Framework",
+          "PostgreSQL",
+          "HTML5",
+          "SQL",
+          "AWS EC2",
+          "Oracle 19c",
+        ],
+      },
+      {
+        title:
+          "Frontend Developer - Executive Skill Assessment and Management Admin Platform",
+        company: "Freelance/Contract",
+        projectTitle: "2017 - 2018",
+        achievements: [
+          "Led a team, guiding development practices and ensuring high-quality code using Redux Toolkit and React Hooks.",
+          "Worked on feature enhancements and collaborated with QA to streamline development cycles and improve code quality.",
+          "Managed the integration of AWS Lambda for backend services and ensured smooth data synchronization.",
+        ],
+        technologies: [
+          "React.js",
+          "React Hooks",
+          "Redux",
+          "Redux Toolkit",
+          "Material UI",
+          "Luxon",
+          "Django",
+          "AWS Lambda",
+          "MongoDB",
+          "PostgreSQL",
+        ],
+      },
+    ],
+    education: [
+      {
+        degree: "B.Tech in Computer Science",
+        description: "Focus on Web Development and Full Stack Engineering.",
+      },
+    ],
+  },
+  {
+    id: "4",
+    name: "Anshul",
+    title: "Senior Backend Developer",
+    avatar:
+      "https://images.unsplash.com/photo-1495742290995-1b833c34a431?auto=format&fit=crop&w=300&h=300",
+    location: "Remote",
+    yearsOfExperience: "6+ Years",
+    availability: "Available immediately",
+    summary:
+      "A Senior Backend Developer with 6+ years of experience specializing in server-side development using JavaScript and TypeScript. Expertise in designing and building high-performance APIs, working with databases like MongoDB and PostgreSQL, and developing microservices. Deep understanding of serverless architecture, Node.js, and asynchronous programming. Proven experience in optimizing API performance, implementing security best practices, and handling large-scale data processing.",
+    skills: [
+      {
+        category: "Backend Development",
+        items: [
+          "Node.js",
+          "Express.js",
+          "TypeScript",
+          "REST APIs",
+          "GraphQL",
+          "Microservices Architecture",
+          "JWT Authentication",
+        ],
+      },
+      {
+        category: "Database Management",
+        items: ["MongoDB", "PostgreSQL", "MySQL", "Redis"],
+      },
+      {
+        category: "DevOps & CI/CD",
+        items: [
+          "Docker",
+          "Kubernetes",
+          "AWS (Lambda, EC2, S3)",
+          "Terraform",
+          "CI/CD Pipelines",
+        ],
+      },
+      {
+        category: "Testing & Debugging",
+        items: ["Jest", "Mocha", "Chai", "Supertest", "New Relic"],
+      },
+    ],
+    workExperience: [
+      {
+        title: "Senior Backend Developer",
+        company: "CloudX Technologies",
+        projectTitle: "Data Analytics Platform",
+        achievements: [
+          "Designed and developed scalable REST APIs using Node.js and Express.js to handle large data sets.",
+          "Implemented GraphQL to support flexible and efficient querying of large-scale data.",
+          "Deployed microservices architecture using Docker and Kubernetes on AWS infrastructure.",
+          "Optimized database performance by implementing indexing and caching using Redis, reducing query times by 30%.",
+          "Implemented unit and integration tests with Jest, ensuring 95% code coverage.",
+        ],
+        technologies: [
+          "Node.js",
+          "Express.js",
+          "GraphQL",
+          "AWS Lambda",
+          "MongoDB",
+          "PostgreSQL",
+          "Docker",
+          "Redis",
+          "Jest",
+          "CI/CD",
+        ],
+      },
+      {
+        title: "Backend Developer",
+        company: "TechSavvy Solutions",
+        projectTitle: "CRM System",
+        achievements: [
+          "Built high-performance backend services using Node.js and TypeScript for the CRM system.",
+          "Optimized database performance and ensured data consistency with PostgreSQL.",
+          "Integrated third-party APIs for email and messaging functionalities.",
+          "Introduced automated deployment pipelines and containerization using Docker.",
+        ],
+        technologies: [
+          "Node.js",
+          "TypeScript",
+          "Express.js",
+          "PostgreSQL",
+          "Docker",
+          "Redis",
+        ],
+      },
+    ],
+    education: [
+      {
+        degree: "B.Tech in Information Technology",
+        description: "Focus on Backend Development and Distributed Systems.",
+      },
+    ],
+  },
 ];

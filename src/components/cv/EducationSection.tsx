@@ -31,10 +31,6 @@ export default function EducationSection({ education }: { education: Education[]
                   <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
                     {edu.degree}
                   </h3>
-                  <p className="text-blue-600 dark:text-blue-400">{edu.school}</p>
-                  <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
-                    {edu.period}
-                  </p>
                   {edu.description && (
                     <p className="text-gray-600 dark:text-gray-300 mt-2">
                       {edu.description}

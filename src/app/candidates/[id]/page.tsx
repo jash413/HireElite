@@ -53,7 +53,7 @@ export default async function CandidatePage({
           <CandidateHeader candidate={shadowCandidate} />
 
           {/* Key Metrics */}
-          <KeyMetrics experience={shadowCandidate.workExperience} />
+          <KeyMetrics candidate={shadowCandidate} />
 
           {/* Main Content */}
           <div className="grid lg:grid-cols-3 gap-8">

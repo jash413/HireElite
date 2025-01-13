@@ -1,5 +1,5 @@
-import { type Candidate } from '@/types/candidate';
-import { formatDate } from './date';
+import { type Candidate } from "@/types/candidate";
+import { formatDate } from "./date";
 
 export async function generateCV(candidate: Candidate): Promise<string> {
   const html = `
@@ -151,57 +151,79 @@ export async function generateCV(candidate: Candidate): Promise<string> {
         <section>
           <h3>Skills</h3>
           <div class="skills-grid">
-            ${candidate.skills.map(category => `
+            ${candidate.skills
+              .map(
+                (category) => `
               <div class="skill-category">
                 <h4>${category.category}</h4>
                 <div class="skill-list">
-                  ${category.items.map(skill => `
+                  ${category.items
+                    .map(
+                      (skill) => `
                     <span class="skill-tag">${skill}</span>
-                  `).join('')}
+                  `
+                    )
+                    .join("")}
                 </div>
               </div>
-            `).join('')}
+            `
+              )
+              .join("")}
           </div>
         </section>
 
         <section>
           <h3>Work Experience</h3>
-          ${candidate.workExperience.map(job => `
+          ${candidate.workExperience
+            .map(
+              (job) => `
             <div class="experience-item">
               <div class="experience-header">
                 <div>
                   <div class="company">${job.title}</div>
                 </div>
-                <div class="period">${job.period}</div>
+                <div class="period">${job.projectTitle}</div>
               </div>
               <ul>
-                ${job.achievements.map(achievement => `
+                ${job.achievements
+                  .map(
+                    (achievement) => `
                   <li>${achievement}</li>
-                `).join('')}
+                `
+                  )
+                  .join("")}
               </ul>
               <div class="skill-list">
-                ${job.technologies.map(tech => `
+                ${job.technologies
+                  .map(
+                    (tech) => `
                   <span class="skill-tag">${tech}</span>
-                `).join('')}
+                `
+                  )
+                  .join("")}
               </div>
             </div>
-          `).join('')}
+          `
+            )
+            .join("")}
         </section>
 
         <section>
           <h3>Education</h3>
-          ${candidate.education.map(edu => `
+          ${candidate.education
+            .map(
+              (edu) => `
             <div class="experience-item">
               <div class="experience-header">
                 <div>
                   <div class="company">${edu.degree}</div>
-                  <div>${edu.school}</div>
                 </div>
-                <div class="period">${edu.period}</div>
               </div>
-              ${edu.description ? `<p>${edu.description}</p>` : ''}
+              ${edu.description ? `<p>${edu.description}</p>` : ""}
             </div>
-          `).join('')}
+          `
+            )
+            .join("")}
         </section>
 
         <footer>

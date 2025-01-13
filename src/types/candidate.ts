@@ -1,7 +1,7 @@
 export interface Experience {
     title: string;
     company: string;
-    period: string;
+    projectTitle: string;
     achievements: string[];
     technologies: string[];
   }
@@ -17,8 +17,6 @@ export interface Experience {
   
   export interface Education {
     degree: string;
-    school: string;
-    period: string;
     description?: string;
   }
   
@@ -45,7 +43,5 @@ export interface Experience {
       items: string[];
     }[];
     workExperience: Experience[];
-    projects: Project[];
     education: Education[];
-    contact: Contact;
   }
