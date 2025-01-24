@@ -1,10 +1,10 @@
-'use client';
+"use client";
 
-import { motion } from 'framer-motion';
-import FooterSection from './FooterSection';
-import SocialLinks from './SocialLinks';
-import Newsletter from './Newsletter';
-import { footerSections } from './footerData';
+import { motion } from "framer-motion";
+import FooterSection from "./FooterSection";
+import SocialLinks from "./SocialLinks";
+import Newsletter from "./Newsletter";
+import { footerSections } from "./footerData";
 
 export default function Footer() {
   return (
@@ -22,12 +22,10 @@ export default function Footer() {
             viewport={{ once: true }}
             className="lg:col-span-2"
           >
-            <h2 className="text-2xl font-bold text-white mb-4">
-              HireElite
-            </h2>
+            <h2 className="text-2xl font-bold text-white mb-4">HireElite</h2>
             <p className="text-gray-400 mb-6">
-              Your trusted partner for on-demand JavaScript and TypeScript developers.
-              Building exceptional teams for exceptional projects.
+              Your trusted partner for on-demand JavaScript and TypeScript
+              developers. Building exceptional teams for exceptional projects.
             </p>
             <SocialLinks />
           </motion.div>
@@ -40,11 +38,25 @@ export default function Footer() {
               index={index}
             />
           ))}
+
           {/* Newsletter */}
           <Newsletter />
         </div>
 
-
+        {/* Payment Partner Section */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+          viewport={{ once: true }}
+          className="flex justify-start mt-8"
+        >
+          <img
+            src="/refrens.png"
+            alt="Billing Powered by Refrens"
+            className="h-12"
+          />
+        </motion.div>
 
         {/* Bottom Bar */}
         <motion.div
