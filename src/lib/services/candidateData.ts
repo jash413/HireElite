@@ -667,4 +667,85 @@ export const candidates: Candidate[] = [
       },
     ],
   },
+  {
+    id: "5",
+    name: "Sr Unity Developer",
+    title: "Senior Unity Developer",
+    avatar: "",
+    location: "Remote",
+    yearsOfExperience: "4.9 Years",
+    availability: "Available immediately",
+    summary:
+      "A Senior Unity Developer with 4.9 years of experience, having developed 45+ projects in Unity. Proficient in AR/VR applications, multiplayer game development, and Metaverse solutions. Experienced in building apps and games for Apple, Android, Quest, and WEBGL.",
+    skills: [
+      {
+        category: "Game Development",
+        items: [
+          "Unity 3D",
+          "Mirror SDK",
+          "Photon SDK",
+          "ReadyPlayerMe Avatar SDK",
+          "3D Avatar SDK",
+        ],
+      },
+      {
+        category: "Cloud & Backend",
+        items: ["AWS Cloud"],
+      },
+    ],
+    workExperience: [
+      {
+        title: "Senior Unity Developer",
+        company: "Freelance",
+        projectTitle: "One Breath Metaverse",
+        achievements: [
+          "Developed a Metaverse platform for coaches and athletes, featuring games, social zones, and learning areas.",
+          "Implemented multiplayer interactions and social engagement zones.",
+          "Designed immersive history and learning zones for user education.",
+        ],
+        technologies: ["Unity 3D", "Mirror SDK", "Photon SDK", "AWS Cloud"],
+      },
+      {
+        title: "Senior Unity Developer",
+        company: "Freelance",
+        projectTitle: "Skillset Aviation Metaverse",
+        achievements: [
+          "Built a specialized training Metaverse for helicopter pilots.",
+          "Developed interactive 3D training with real-time instructor sessions.",
+          "Implemented a virtual library, podcast zone, and an auditorium for training.",
+        ],
+        technologies: ["Unity 3D", "Mirror SDK", "Photon SDK", "AWS Cloud"],
+      },
+      {
+        title: "Unity Developer",
+        company: "Freelance",
+        projectTitle: "AR Applications",
+        achievements: [
+          "Developed Walkopoly, a location-based AR app for rewards and ads.",
+          "Created Quippo, an AR app for interactive brand engagement.",
+          "Built a University Library app, a virtual guide for locating books.",
+        ],
+        technologies: ["Unity 3D", "AR SDKs"],
+      },
+      {
+        title: "Unity Developer",
+        company: "Freelance",
+        projectTitle: "Game Development",
+        achievements: [
+          "Developed a VR Multiplayer Shooting Game.",
+          "Created a multiplayer Baseball Game.",
+          "Designed and developed a browser-based Retro Themed Car Game.",
+          "Built Hero Dash, an endless runner game similar to Subway Surfer.",
+          "Developed a MOBA fantasy fighting game with 5 vs. 5 gameplay.",
+        ],
+        technologies: ["Unity 3D", "Multiplayer SDKs"],
+      },
+    ],
+    education: [
+      {
+        degree: "B.Tech in Computer Science",
+        description: "Focus on Game Development and AR/VR Technologies.",
+      },
+    ],
+  },
 ];
