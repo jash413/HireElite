@@ -1322,4 +1322,133 @@ export const candidates: Candidate[] = [
       },
     ],
   },
+  {
+    id: "8",
+    name: "Parag",
+    title: "Blockchain Architect | Consultant | Developer",
+    avatar: "",
+    location: "Remote",
+    yearsOfExperience: "7+ Years",
+    availability: "Available Immediately",
+    summary:
+      "With over 7 years of experience as a Blockchain Architect, Consultant, and Developer, I specialize in designing and implementing innovative blockchain solutions. My expertise spans public and private blockchain platforms such as Ethereum, Hyperledger, and Quorum, along with smart contract development, NFT standards, and decentralized applications. I have a proven track record of collaborating with stakeholders to analyze requirements, architect scalable solutions, and integrate blockchain technology with existing systems. Passionate about leveraging emerging technologies, I aim to deliver secure, transparent, and efficient solutions while staying updated with industry trends and mentoring teams.",
+    skills: [
+      {
+        category: "Blockchain Technologies",
+        items: [
+          "Blockchain",
+          "Ethereum",
+          "Bitcoin",
+          "Ethereum Quorum",
+          "Hyperledger Besu",
+          "Hyperledger R3Corda",
+          "Smart Contracts",
+          "NFT Standards (ERC-721, ERC-1155, ERC-2981)",
+          "Public and Private Blockchain",
+        ],
+      },
+      {
+        category: "Programming Languages & Frameworks",
+        items: ["Solidity", "Web3JS", "Truffle", "Hardhat", "Remix"],
+      },
+      {
+        category: "Tools & Protocols",
+        items: ["MetaMask", "IPFS Protocol", "Geth", "Uniswap Platform"],
+      },
+      {
+        category: "Advanced Technologies",
+        items: [
+          "Chat GPT3.5",
+          "Lang Chain Model",
+          "Open AI",
+          "LLM Model",
+          "Layer2 Solutions",
+          "Side Chain (Polygon)",
+        ],
+      },
+      {
+        category: "Other Skills",
+        items: [
+          "Technical Content Writing",
+          "Manual Testing",
+          "User Manual Creation",
+          "Business Analysis",
+          "Pre-sales",
+        ],
+      },
+    ],
+    workExperience: [
+      {
+        title: "Blockchain Consultant and Developer",
+        company: "MaxelPay",
+        projectTitle: "Crypto Payment Gateway",
+        achievements: [
+          "Integrated various components to provide a comprehensive blockchain-based payment solution.",
+          "Enabled secure, transparent, and decentralized transactions via multiple blockchain backends.",
+          "Facilitated integration for e-commerce platforms and fintech apps using APIs and SDKs.",
+        ],
+        technologies: ["Remix", "Hardhat", "Solidity", "MetaMask"],
+      },
+      {
+        title: "Blockchain Architect and Developer",
+        company: "Zyelon",
+        projectTitle: "Token House",
+        achievements: [
+          "Developed a pioneering platform to convert real estate into NFTs.",
+          "Enhanced transaction speed and transparency for property owners using blockchain technology.",
+        ],
+        technologies: ["Remix", "Hardhat", "Solidity", "MetaMask"],
+      },
+      {
+        title: "Blockchain Developer and Architect",
+        company: "Zyelon",
+        projectTitle: "NFT Creation on Polygon and Ethereum",
+        achievements: [
+          "Set up development environments and deployed smart contracts for NFT minting.",
+          "Created unique digital assets representing art, video clips, and music.",
+        ],
+        technologies: ["Solidity", "Web3JS", "IPFS", "Hardhat", "ERC-721"],
+      },
+      {
+        title: "Blockchain Developer",
+        company: "Not specified",
+        projectTitle: "Escrow Account",
+        achievements: [
+          "Developed a secure escrow system to regulate transactions between parties.",
+          "Ensured fair and secure fund releases based on agreed conditions.",
+        ],
+        technologies: ["Remix", "Geth", "MetaMask"],
+      },
+      {
+        title: "Blockchain Engineer",
+        company: "CSG Karnataka e-Governance",
+        projectTitle: "Private Governance Blockchain on Quorum",
+        achievements: [
+          "Built an online verifiable record system for vendors in the bid process.",
+          "Implemented a private blockchain solution using Ethereum Quorum.",
+        ],
+        technologies: ["Ethereum", "Quorum"],
+      },
+      {
+        title: "Blockchain Engineer",
+        company: "Not specified",
+        projectTitle: "NFT Marketplace",
+        achievements: [
+          "Developed a platform for buying, selling, and trading NFTs.",
+          "Integrated features like wallet support, bidding, and royalty management.",
+        ],
+        technologies: ["Ethereum"],
+      },
+    ],
+    education: [
+      {
+        degree: "B.E. (Electrical and Electronics)",
+        description: "Completed in 2016.",
+      },
+      {
+        degree: "P.G. Diploma in Computer Application",
+        description: "Completed in 2018.",
+      },
+    ],
+  },
 ];
