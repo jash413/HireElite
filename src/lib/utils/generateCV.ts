@@ -227,7 +227,7 @@ export async function generateCV(candidate: Candidate): Promise<string> {
         </section>
 
         <footer>
-          Generated via HireElite.com on ${formatDate(new Date())}
+          Generated via HireElite.dev on ${formatDate(new Date())}
         </footer>
       </body>
     </html>
