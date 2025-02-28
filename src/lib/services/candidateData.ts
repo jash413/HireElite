@@ -1171,4 +1171,155 @@ export const candidates: Candidate[] = [
       },
     ],
   },
+  {
+    id: "7",
+    name: "Anand Tupe",
+    title: "Technical Lead | Full Stack Architect",
+    avatar: "",
+    location: "Remote",
+    yearsOfExperience: "10+ Years",
+    availability: "Available immediately",
+    summary:
+      "As a seasoned Technical Lead and Full Stack Architect with	over 10	years	of experience, I bring over a decade of expertise in designing, developing, and optimizing cutting-edge web applications. I specialize in building scalable, high-performance applications using React.js, Angular, Node.js, JavaScript, and cloud technologies. With a strong foundation in system architecture, UI/UX design, and backend optimization, I have successfully led teams in delivering robust and innovative solutions. I am passionate about mentoring developers, driving best practices, and ensuring seamless integration between frontend and backend systems. My ability to strategize, architect, and execute complex projects has consistently resulted in high-impact solutions for businesses. I am eager to bring my leadership and technical expertise to pioneering projects that push the boundaries of web development.",
+    skills: [
+      {
+        category: "Languages",
+        items: ["TypeScript", "JavaScript", "HTML", "CSS"],
+      },
+      {
+        category: "Libraries & Frameworks",
+        items: [
+          "AngularJS",
+          "Angular Material",
+          "Angular (8 to 19)",
+          "React",
+          "Ionic",
+          "Cloud Functions",
+          "Bootstrap",
+          "Node.js",
+          "Express",
+          "TypeScript",
+        ],
+      },
+      {
+        category: "Databases",
+        items: ["Firebase", "PostgreSQL", "MySQL", "MongoDB"],
+      },
+      {
+        category: "Cloud & DevOps",
+        items: ["AWS", "GCP", "CI/CD", "Docker", "Kubernetes"],
+      },
+      {
+        category: "Web Services & API Design",
+        items: ["REST API", "GraphQL", "Microservices Architecture"],
+      },
+      {
+        category: "Stack",
+        items: ["MERN", "MEAN"],
+      },
+      {
+        category: "IDE & Tools",
+        items: ["Visual Studio Code", "JIRA", "Git", "Jenkins"],
+      },
+      {
+        category: "Integration of Third-party APIs",
+        items: ["Google Segment", "One Signal", "GTM"],
+      },
+      {
+        category: "Testing & Security",
+        items: ["Cypress", "Unit Testing", "OWASP Security Practices"],
+      },
+    ],
+    workExperience: [
+      {
+        title: "Technical Lead | Full Stack Architect",
+        company: "Not specified",
+        projectTitle: "Lotto Social",
+        achievements: [
+          "Architected and led the development of a high-performance player dashboard, improving user engagement by 30%.",
+          "Designed and implemented scalable frontend-backend integrations, ensuring seamless data synchronization and performance optimization.",
+          "Spearheaded Agile development practices, conducting sprint planning, code reviews, and mentoring junior developers.",
+        ],
+        technologies: ["AngularJS", "Node.js", "MongoDB", "AWS"],
+      },
+      {
+        title: "Technical Lead | Angular Specialist",
+        company: "Not specified",
+        projectTitle: "BOLSTART",
+        achievements: [
+          "Led the design and development of a scalable MEAN stack architecture, optimizing API response times by 40%.",
+          "Implemented reusable UI components and design patterns, ensuring a modular and maintainable codebase.",
+          "Championed best practices in unit testing, reducing production bugs by 25%.",
+        ],
+        technologies: [
+          "Angular",
+          "Cloud Functions",
+          "Node.js",
+          "TypeScript",
+          "MongoDB",
+        ],
+      },
+      {
+        title: "Technical Lead | Full Stack Development",
+        company: "Not specified",
+        projectTitle: "Dry Sign",
+        achievements: [
+          "Designed and implemented a digital signature platform with government-approved verification, enhancing security and compliance.",
+          "Optimized system performance and security, reducing document processing time by 35%.",
+          "Led a cross-functional team, aligning business objectives with technical execution.",
+        ],
+        technologies: ["Angular", "Node.js", "TypeScript"],
+      },
+      {
+        title: "Technical Lead | Software Architect",
+        company: "Not specified",
+        projectTitle: "Verdethos",
+        achievements: [
+          "Architected a supply chain management platform, improving operational efficiency by 50%.",
+          "Ensured compliance with accessibility standards and optimized UI for better user engagement.",
+        ],
+        technologies: ["Angular", "MySQL", "TypeScript", "Node.js", "MongoDB"],
+      },
+      {
+        title: "Senior Full Stack Developer | Technical Lead",
+        company: "Not specified",
+        projectTitle: "Finitee",
+        achievements: [
+          "Developed and launched cross-platform mobile applications using Ionic and Angular, reducing development time by 40%.",
+          "Designed scalable real-time data rendering solutions for job portal and chat features.",
+        ],
+        technologies: [
+          "Angular",
+          "AngularJS",
+          "Node.js",
+          "Firebase",
+          "Cloud Functions",
+        ],
+      },
+      {
+        title: "Senior Backend Developer | Team Lead",
+        company: "Not specified",
+        projectTitle: "IRIS GST - LMS, EWB",
+        achievements: [
+          "Led backend development for a corporate tax filing and transportation tracking system.",
+          "Defined API contracts and managed end-to-end integration with frontend systems.",
+        ],
+        technologies: [
+          "Angular 9+",
+          "Ionic",
+          "HTML5",
+          "CSS3",
+          "Node.js",
+          "JavaScript",
+        ],
+      },
+    ],
+    education: [
+      {
+        degree: "Bachelor's in Computer Science",
+        description:
+          "Completed at the University of Pune, specializing in software engineering and web development.",
+      },
+    ],
+  },
 ];
