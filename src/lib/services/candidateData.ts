@@ -247,10 +247,10 @@ export const candidates: Candidate[] = [
     avatar:
       "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=300&h=300",
     location: "Remote",
-    yearsOfExperience: "3+ Years",
+    yearsOfExperience: "4+ Years",
     availability: "immediately",
     summary:
-      "3+ years of hands-on experience in front-end development, proficient in using JavaScript, React JS, and Next JS. Extensive experience in creating user-facing features, building reusable components, and optimizing applications for speed and scalability. Proven ability to work independently, take initiative, and collaborate effectively within diverse team environments. Recognized for a meticulous and detail-oriented approach, excelling in delivering high-quality code and improving development efficiency.",
+      "4+ years of hands-on experience in front-end development, proficient in using JavaScript, React JS, and Next JS. Extensive experience in creating user-facing features, building reusable components, and optimizing applications for speed and scalability. Proven ability to work independently, take initiative, and collaborate effectively within diverse team environments. Recognized for a meticulous and detail-oriented approach, excelling in delivering high-quality code and improving development efficiency.",
     skills: [
       {
         category: "Frontend Development",
