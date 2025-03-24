@@ -1631,4 +1631,204 @@ export const candidates: Candidate[] = [
       },
     ],
   },
+  {
+    id: "11",
+    name: "Milan J.",
+    title: "Sr. Full Stack Node.js Developer",
+    avatar:
+      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&h=300",
+    location: "Remote",
+    yearsOfExperience: "6+ Years",
+    availability: "immediately",
+    summary:
+      "A highly skilled Full Stack Node.js Developer with over 6 years of experience, specializing in backend development, API design, and documentation. Expert in building scalable, high-performance RESTful APIs with a focus on data modeling, schema design, and validation. Proficient in tools like Postman, Swagger, and ReadMe.io for creating clear API specifications. Adept at collaborating with cross-functional teams to deliver efficient, reliable API solutions while ensuring error handling, versioning, and backward compatibility. Strong background in both frontend and backend technologies, with a passion for optimizing system performance and user experience.",
+    skills: [
+      {
+        category: "Operating Systems",
+        items: ["Windows", "Linux", "iOS"],
+      },
+      {
+        category: "Programming Languages",
+        items: ["JavaScript", "TypeScript"],
+      },
+      {
+        category: "Technologies & Tools",
+        items: [
+          "Node.js",
+          "React.js",
+          "React Native",
+          "GIT",
+          "Postman",
+          "Swagger",
+          "Docker",
+          "Kubernetes",
+          "GitHub Actions",
+        ],
+      },
+      {
+        category: "Frameworks & Libraries",
+        items: [
+          "Express.js",
+          "RESTful APIs",
+          "Payment Integration",
+          "Next.js",
+          "Redux",
+          "Tailwind CSS",
+          "Material UI (MUI)",
+          "HighChart",
+        ],
+      },
+      {
+        category: "Project Management Tools",
+        items: ["Jira", "Trello", "Slack"],
+      },
+      {
+        category: "Languages",
+        items: ["English", "Hindi"],
+      },
+      {
+        category: "Databases",
+        items: ["PostgreSQL", "MySQL", "MongoDB", "Redis"],
+      },
+      {
+        category: "Other Specialties",
+        items: [
+          "Data Structures & Algorithms (150+ LeetCode Problems)",
+          "API Documentation & Design",
+          "API Lifecycle Management (Versioning)",
+          "Microservices Architecture",
+          "Authentication & Security (JWT, API Keys)",
+          "Data Modeling & Schema Design",
+          "CI/CD & DevOps",
+          "API Testing & Validation (Jest)",
+          "Cloud Platforms (AWS)",
+        ],
+      },
+    ],
+    workExperience: [
+      {
+        title: "Full Stack Developer - Aboutcare Healthcare Platform",
+        company: "Undisclosed",
+        projectTitle: "Past Project",
+        achievements: [
+          "Led backend development for a healthcare platform, designing APIs and integrating MongoDB.",
+          "Implemented job portal and scheduling system with clock-in/clock-out functionality.",
+          "Developed user profile management for certificates, resumes, and experience.",
+          "Integrated geolocation API for job matching based on proximity.",
+        ],
+        technologies: [
+          "Node.js",
+          "Express.js",
+          "MongoDB",
+          "React.js",
+          "Socket.IO",
+          "Geolocation API",
+        ],
+      },
+      {
+        title: "Backend Developer - HashMemo Educational Social Media Platform",
+        company: "Undisclosed",
+        projectTitle: "Past Project",
+        achievements: [
+          "Built data pipelines for processing and filtering user-generated content.",
+          "Developed an admin panel for user management and platform oversight.",
+          "Integrated real-time chat using Socket.IO for admin-staff communication.",
+        ],
+        technologies: [
+          "Node.js",
+          "Express.js",
+          "MongoDB",
+          "React.js",
+          "Socket.IO",
+        ],
+      },
+      {
+        title: "Backend Developer - OnlyFans-like Social Media Platform",
+        company: "Undisclosed",
+        projectTitle: "Past Project",
+        achievements: [
+          "Implemented secure authentication and authorization mechanisms.",
+          "Developed content management for media uploads and subscription-based monetization.",
+          "Added social engagement features like liking, commenting, and bookmarking.",
+        ],
+        technologies: [
+          "Node.js",
+          "Express.js",
+          "MongoDB",
+          "React.js",
+          "WebSockets",
+          "Stripe API",
+        ],
+      },
+      {
+        title:
+          "React.js Developer - Krishna International School Management System",
+        company: "Undisclosed",
+        projectTitle: "Past Project",
+        achievements: [
+          "Fixed UI bugs and integrated APIs to enhance system functionality.",
+          "Enhanced student module for homework access and fee visibility.",
+          "Developed teacher and admin modules for homework, attendance, and fee management.",
+        ],
+        technologies: ["React.js", "Node.js", "Express.js", "MongoDB"],
+      },
+      {
+        title: "Full Stack Developer - ChainGames Online W3 Games Platform",
+        company: "Undisclosed",
+        projectTitle: "Past Project",
+        achievements: [
+          "Managed frontend UI and backend services for a multiplayer gaming platform.",
+          "Developed a live lobby feature for real-time player tracking.",
+          "Created new APIs and implemented WebSocket for real-time updates.",
+        ],
+        technologies: ["React Native", "Node.js", "Express.js", "WebSockets"],
+      },
+      {
+        title: "Full Stack Developer - Advanced ToDo App",
+        company: "Undisclosed",
+        projectTitle: "Past Project",
+        achievements: [
+          "Designed a responsive UI with task categorization by priority.",
+          "Implemented CRUD operations and integrated camera functionality for task images.",
+          "Optimized app performance and usability.",
+        ],
+        technologies: [
+          "React.js",
+          "Context API",
+          "Formik",
+          "JavaScript",
+          "HTML",
+          "CSS",
+        ],
+      },
+      {
+        title: "Frontend Developer - Quiz App",
+        company: "Undisclosed",
+        projectTitle: "Past Project",
+        achievements: [
+          "Built UI components and managed state for an MCQ exam app.",
+          "Developed quiz screens to track user progress and display questions.",
+          "Handled data transfer using static objects and props.",
+        ],
+        technologies: ["React Native", "JavaScript"],
+      },
+      {
+        title: "Full Stack Developer - Food Delivery App Template",
+        company: "Undisclosed",
+        projectTitle: "Past Project",
+        achievements: [
+          "Designed a user-friendly UI for food ordering and restaurant management.",
+          "Developed reusable components for seamless integration.",
+          "Implemented navigation and state management for an intuitive experience.",
+        ],
+        technologies: ["React Native", "JavaScript"],
+      },
+    ],
+    education: [
+      {
+        degree: "Computer Engineering",
+        description: "A.V. Parekh Technical Institute.",
+      },
+    ],
+  },
 ];
