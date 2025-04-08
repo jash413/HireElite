@@ -9,7 +9,7 @@ export const candidates: Candidate[] = [
       "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=300&h=300",
     location: "Remote",
     yearsOfExperience: "6+ Years",
-    availability: "Immediately",
+    availability: "Available Immediately",
     summary:
       "Experienced Lead Senior Frontend Developer with over 6 years of expertise in creating high-performance, scalable, and user-centric web applications. Specialized in React, TypeScript, and modern frontend technologies with a deep understanding of web performance, clean code practices, and UI/UX principles. Strong background in leading teams, architecting solutions, and optimizing complex applications for both speed and maintainability.",
     skills: [
@@ -248,7 +248,7 @@ export const candidates: Candidate[] = [
       "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=300&h=300",
     location: "Remote",
     yearsOfExperience: "4+ Years",
-    availability: "immediately",
+    availability: "Available Immediately",
     summary:
       "4+ years of hands-on experience in front-end development, proficient in using JavaScript, React JS, and Next JS. Extensive experience in creating user-facing features, building reusable components, and optimizing applications for speed and scalability. Proven ability to work independently, take initiative, and collaborate effectively within diverse team environments. Recognized for a meticulous and detail-oriented approach, excelling in delivering high-quality code and improving development efficiency.",
     skills: [
@@ -580,7 +580,7 @@ export const candidates: Candidate[] = [
       "https://images.unsplash.com/photo-1495742290995-1b833c34a431?auto=format&fit=crop&w=300&h=300",
     location: "Remote",
     yearsOfExperience: "6+ Years",
-    availability: "Available immediately",
+    availability: "Available Available Immediately",
     summary:
       "A Senior Backend Developer with 6+ years of experience specializing in server-side development using JavaScript and TypeScript. Expertise in designing and building high-performance APIs, working with databases like MongoDB and PostgreSQL, and developing microservices. Deep understanding of serverless architecture, Node.js, and asynchronous programming. Proven experience in optimizing API performance, implementing security best practices, and handling large-scale data processing.",
     skills: [
@@ -674,7 +674,7 @@ export const candidates: Candidate[] = [
     avatar: "",
     location: "Remote",
     yearsOfExperience: "4.9 Years",
-    availability: "Available immediately",
+    availability: "Available Available Immediately",
     summary:
       "A Senior Unity Developer with 4.9 years of experience, having developed 45+ projects in Unity. Proficient in AR/VR applications, multiplayer game development, and Metaverse solutions. Experienced in building apps and games for Apple, Android, Quest, and WEBGL.",
     skills: [
@@ -756,7 +756,7 @@ export const candidates: Candidate[] = [
       "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=300&h=300",
     location: "Remote",
     yearsOfExperience: "12.6+ Years",
-    availability: "immediately",
+    availability: "Available Immediately",
     summary:
       "Over 12.6 years of experience in the software industry, specializing in full-stack development and technical leadership. Proficient in designing and developing applications using ReactJS, NextJS, React Native, Flutter, Dart, Redux, Redux-Saga, Redux-Toolkit, JavaScript, and TypeScript. Experienced in leading teams, implementing micro-frontend architectures, and managing CI/CD pipelines. Skilled in AWS services, version control systems, and modern UI frameworks, with a strong focus on delivering scalable and high-quality solutions.",
     skills: [
@@ -1066,7 +1066,7 @@ export const candidates: Candidate[] = [
     avatar: "",
     location: "Remote",
     yearsOfExperience: "10+ Years",
-    availability: "Available immediately",
+    availability: "Available Available Immediately",
     summary:
       "As a seasoned Technical Lead and Full Stack Architect with	over 10	years	of experience, I bring over a decade of expertise in designing, developing, and optimizing cutting-edge web applications. I specialize in building scalable, high-performance applications using React.js, Angular, Node.js, JavaScript, and cloud technologies. With a strong foundation in system architecture, UI/UX design, and backend optimization, I have successfully led teams in delivering robust and innovative solutions. I am passionate about mentoring developers, driving best practices, and ensuring seamless integration between frontend and backend systems. My ability to strategize, architect, and execute complex projects has consistently resulted in high-impact solutions for businesses. I am eager to bring my leadership and technical expertise to pioneering projects that push the boundaries of web development.",
     skills: [
@@ -1217,7 +1217,7 @@ export const candidates: Candidate[] = [
     avatar: "",
     location: "Remote",
     yearsOfExperience: "7+ Years",
-    availability: "Available Immediately",
+    availability: "Available Available Immediately",
     summary:
       "With over 7 years of experience as a Blockchain Architect, Consultant, and Developer, I specialize in designing and implementing innovative blockchain solutions. My expertise spans public and private blockchain platforms such as Ethereum, Hyperledger, and Quorum, along with smart contract development, NFT standards, and decentralized applications. I have a proven track record of collaborating with stakeholders to analyze requirements, architect scalable solutions, and integrate blockchain technology with existing systems. Passionate about leveraging emerging technologies, I aim to deliver secure, transparent, and efficient solutions while staying updated with industry trends and mentoring teams.",
     skills: [
@@ -1347,7 +1347,7 @@ export const candidates: Candidate[] = [
       "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&h=300",
     location: "Remote",
     yearsOfExperience: "4+ Years",
-    availability: "immediately",
+    availability: "Available Immediately",
     summary:
       "Around 4+ years of extensive experience in web-based applications using NodeJS, ExpressJS, NextJS, MongoDB, ReactJS, Redux, AngularJS, Data Visualization, and WebGL technologies. Proficient in designing and implementing various web applications in both front-end (AngularJS, ReactJS) and back-end (NodeJS, NextJS, ExpressJS, MongoDB) environments. Expertise includes server-side APIs, server-side rendering, REST API development, and architecture design for backend development with third-party integrations. Strong understanding of git versioning, API-driven design, and database optimization with MySQL and MongoDB.",
     skills: [
@@ -1462,7 +1462,7 @@ export const candidates: Candidate[] = [
       "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=300&h=300",
     location: "Remote",
     yearsOfExperience: "7+ Years",
-    availability: "immediately",
+    availability: "Available Immediately",
     summary:
       "Over 7+ years of professional experience in IT industries with comprehensive knowledge in Software Analysis, Design, and Development of business applications. Skilled in web development technologies including Angular, ReactJS, ExtJS, Nest.js, and Node.js. Proficient in JavaScript (ES5/ES6), TypeScript, and modern frameworks with a strong focus on coding, debugging, and testing. Experienced in PostgreSQL, MongoDB, and AWS services. Adept at working in Agile environments, utilizing tools like GitHub, GitLab, and Azure for version control and project management. Known for strong communication, interpersonal skills, and the ability to adapt quickly to new technologies.",
     skills: [
@@ -1639,7 +1639,7 @@ export const candidates: Candidate[] = [
       "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&h=300",
     location: "Remote",
     yearsOfExperience: "6+ Years",
-    availability: "immediately",
+    availability: "Available Immediately",
     summary:
       "A highly skilled Full Stack Node.js Developer with over 6 years of experience, specializing in backend development, API design, and documentation. Expert in building scalable, high-performance RESTful APIs with a focus on data modeling, schema design, and validation. Proficient in tools like Postman, Swagger, and ReadMe.io for creating clear API specifications. Adept at collaborating with cross-functional teams to deliver efficient, reliable API solutions while ensuring error handling, versioning, and backward compatibility. Strong background in both frontend and backend technologies, with a passion for optimizing system performance and user experience.",
     skills: [
@@ -1839,7 +1839,7 @@ export const candidates: Candidate[] = [
       "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=300&h=300",
     location: "Remote",
     yearsOfExperience: "10+ Years",
-    availability: "Immediately",
+    availability: "Available Immediately",
     summary:
       "Results-oriented Software Engineer with over 10 years of experience in analysis, design, development, testing, and implementation of various Front-End Technologies. Proficient in writing code in multiple languages, specializing in Angular (all versions), ReactJS, and hybrid mobile app development using IONIC. Adept at state management, unit testing, and integrating third-party plugins. Passionate about creating scalable, responsive, and user-friendly applications with a focus on innovative engineering solutions.",
     skills: [
@@ -2180,7 +2180,7 @@ export const candidates: Candidate[] = [
       "https://images.unsplash.com/photo-1522556189639-b1509e838b8c?auto=format&fit=crop&w=300&h=300",
     location: "Remote",
     yearsOfExperience: "8+ Years",
-    availability: "Feb 2023",
+    availability: "Available Immediately",
     summary:
       "Results-driven Fullstack Engineer with 8 years of comprehensive experience in developing and maintaining robust web applications utilizing Python and React. Proficient in designing RESTful APIs, optimizing database interactions, and implementing scalable solutions. Demonstrated expertise in cloud infrastructure management and a strong track record of delivering high-quality software solutions in collaborative team environments.",
     skills: [
