@@ -2903,4 +2903,205 @@ export const candidates: Candidate[] = [
       },
     ],
   },
+  {
+    id: "16",
+    name: "Nihal",
+    title: "MERN Stack Developer",
+    avatar:
+      "https://images.unsplash.com/photo-1506794778202-d4c0a2c7b0b4?auto=format&fit=crop&w=300&h=300",
+    location: "Remote",
+    yearsOfExperience: "7.5+ Years",
+    availability: "Available Immediately",
+    summary:
+      "Dedicated MERN Stack Developer with over 7 years of hands-on experience in full-stack development. Proficient in designing, developing, testing, deploying, and maintaining web applications using React.js, Node.js, Express.js, and various databases like MySQL, MongoDB, and Firebase. Experienced in integrating third-party services such as e-KYC, IMPS, SMS, payment gateways (Razorpay, Paytm, PayPal), and PAN verification providers. Skilled in managing project priorities, deadlines, and deliverables, with a focus on delivering scalable and efficient solutions.",
+    skills: [
+      {
+        category: "Languages",
+        items: ["JavaScript", "HTML5", "CSS3"],
+      },
+      {
+        category: "Frameworks & Libraries",
+        items: [
+          "Node.js",
+          "Moleculer JS",
+          "React.js",
+          "React Native",
+          "Express.js",
+          "Next.js",
+          "Redux",
+          "Bootstrap",
+          "Material UI",
+          "Sequelize.js",
+          "Node Mailer",
+          "Node Cron Jobs",
+        ],
+      },
+      {
+        category: "Databases",
+        items: ["MySQL", "MongoDB", "Firebase"],
+      },
+      {
+        category: "Web Services",
+        items: ["REST API"],
+      },
+      {
+        category: "Stack",
+        items: ["Full Stack (MERN)"],
+      },
+      {
+        category: "Tools",
+        items: ["Visual Studio Code", "Git"],
+      },
+      {
+        category: "Operating Systems",
+        items: ["Windows 7/8/10", "Ubuntu"],
+      },
+      {
+        category: "Third-Party Integrations",
+        items: [
+          "Razorpay",
+          "Paytm",
+          "PayPal",
+          "e-KYC Provider",
+          "IMPS Provider",
+          "SMS Provider",
+          "PAN Verification Provider",
+        ],
+      },
+      {
+        category: "Cloud Services",
+        items: ["AWS EC2"],
+      },
+    ],
+    workExperience: [
+      {
+        title: "MERN Stack Developer - Pocket Desk",
+        company: "Not Specified",
+        projectTitle: "6 Months",
+        achievements: [
+          "Developed a document management server allowing candidates to manage documents and post comments.",
+          "Created user accounts with personal document directories to manage people lists and related documents.",
+          "Enabled users to view, like, and comment on posts from other users.",
+        ],
+        technologies: ["Node.js", "React.js", "MongoDB", "Express.js"],
+      },
+      {
+        title: "MERN Stack Developer - Family Desire",
+        company: "Not Specified",
+        projectTitle: "6 Months",
+        achievements: [
+          "Built a dating site with user management, connection requests, real-time messaging, posts, likes, and comments.",
+          "Enabled users to create personal profiles, view matching profiles, and connect with others via messaging with attachments.",
+        ],
+        technologies: ["Node.js", "React.js", "MongoDB", "Express.js", "Redux"],
+      },
+      {
+        title: "MERN Stack Developer - Strokes Management",
+        company: "Not Specified",
+        projectTitle: "10 Months",
+        achievements: [
+          "Developed an admin panel and backend server for stock management, including generating stock reports.",
+          "Integrated third-party APIs to fetch current stock values for display in the portal.",
+        ],
+        technologies: [
+          "Node.js",
+          "React.js",
+          "MongoDB",
+          "Express.js",
+          "Redux",
+          "React Native",
+          "MySQL",
+          "AWS EC2",
+        ],
+      },
+      {
+        title: "MERN Stack Developer - Divyajyoti Sarees",
+        company: "Not Specified",
+        projectTitle: "10 Months",
+        achievements: [
+          "Developed a platform for managing saree stock, prices, quantities, and orders.",
+          "Enabled user registration for placing multiple orders and processing online payments via PayPal.",
+        ],
+        technologies: [
+          "React.js",
+          "Bootstrap",
+          "Node.js",
+          "Node Cron Jobs",
+          "Sequelize.js",
+          "Node Mailer",
+          "PayPal",
+        ],
+      },
+      {
+        title: "MERN Stack Developer - Employing Portal",
+        company: "Not Specified",
+        projectTitle: "7 Months",
+        achievements: [
+          "Built a job portal allowing admins to post jobs and manage applications, and users to view jobs, apply, and manage resumes.",
+          "Implemented online payment management and messaging features.",
+        ],
+        technologies: [
+          "Firebase",
+          "Paytm",
+          "Node.js",
+          "React.js",
+          "Express.js",
+          "Redux",
+          "Sequelize.js",
+          "MySQL",
+        ],
+      },
+      {
+        title: "MERN Stack Developer - Invoice and Payslip Generator",
+        company: "Not Specified",
+        projectTitle: "4 Months",
+        achievements: [
+          "Developed an employee management portal with automated payslip generation using cron jobs.",
+          "Enabled admins to create and manage company and employee profiles, generate invoices, and send payslips via email.",
+        ],
+        technologies: [
+          "Node.js",
+          "React.js",
+          "MongoDB",
+          "Express.js",
+          "Redux",
+          "Material UI",
+          "Node Mailer",
+          "Firebase",
+        ],
+      },
+      {
+        title: "MERN Stack Developer - Go Service Provider",
+        company: "Not Specified",
+        projectTitle: "4 Months",
+        achievements: [
+          "Developed a service provider platform for managing service requests (e.g., AC, fridge, TV repairs) with geolocation.",
+          "Enabled users to create profiles, request services, and add reviews, with paid membership options for advanced services.",
+        ],
+        technologies: [
+          "React.js",
+          "React Native",
+          "Material UI",
+          "Node.js",
+          "Sequelize.js",
+          "Redux",
+          "Firebase",
+        ],
+      },
+    ],
+    education: [
+      {
+        degree: "Bachelor of Computer Applications (B.C.A.)",
+        description: "V.N.S.G.U., 2018",
+      },
+      {
+        degree: "Higher Secondary Certificate (H.S.C.)",
+        description: "G.H.S.E.B., 2015",
+      },
+      {
+        degree: "Secondary School Certificate (S.S.C.)",
+        description: "G.S.E.B., 2013",
+      },
+    ],
+  },
 ];
