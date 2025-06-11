@@ -2913,7 +2913,7 @@ export const candidates: Candidate[] = [
     yearsOfExperience: "7.5+ Years",
     availability: "Available Immediately",
     summary:
-      "Dedicated MERN Stack Developer with over 7 years of hands-on experience in full-stack development. Proficient in designing, developing, testing, deploying, and maintaining web applications using React.js, Node.js, Express.js, and various databases like MySQL, MongoDB, and Firebase. Experienced in integrating third-party services such as e-KYC, IMPS, SMS, payment gateways (Razorpay, Paytm, PayPal), and PAN verification providers. Skilled in managing project priorities, deadlines, and deliverables, with a focus on delivering scalable and efficient solutions.",
+      "Dedicated MERN Stack Developer with over 7.5 years of hands-on experience in full-stack development. Proficient in designing, developing, testing, deploying, and maintaining web applications using React.js, Node.js, Express.js, and various databases like MySQL, MongoDB, and Firebase. Experienced in integrating third-party services such as e-KYC, IMPS, SMS, payment gateways (Razorpay, Paytm, PayPal), and PAN verification providers. Skilled in managing project priorities, deadlines, and deliverables, with a focus on delivering scalable and efficient solutions.",
     skills: [
       {
         category: "Languages",
