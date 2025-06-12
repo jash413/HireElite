@@ -3104,4 +3104,169 @@ export const candidates: Candidate[] = [
       },
     ],
   },
+  {
+    id: "17",
+    name: "Komal",
+    title: "Senior Software Engineer",
+    avatar:
+      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=300&h=300",
+    location: "Not Specified",
+    yearsOfExperience: "9 Years",
+    availability: "Not Specified",
+    summary:
+      "Experienced Senior Software Engineer with 9 years of expertise in full-stack development, proficient in HTML, CSS, React.js, Next.js, Angular, Vue.js, Node.js, and Express.js. Skilled in state management with Redux, UX design principles using Figma, and optimizing SQL/NoSQL databases. Expert in integrating microservices, RESTful APIs, and third-party platforms, with a deep understanding of software development patterns and Agile Scrum methodologies. Adept at building scalable, secure, and cloud-native applications using AWS services, with a proven track record of leading teams and enhancing code quality.",
+    skills: [
+      {
+        category: "Languages",
+        items: ["JavaScript", "TypeScript", "HTML", "CSS"],
+      },
+      {
+        category: "Frameworks & Libraries",
+        items: [
+          "React.js",
+          "Next.js",
+          "Angular.js",
+          "Angular 2+",
+          "Vue.js",
+          "Node.js",
+          "Express.js",
+          "Nest.js",
+          "Redux",
+        ],
+      },
+      {
+        category: "Databases",
+        items: ["PostgreSQL", "MongoDB", "MySQL", "Redis"],
+      },
+      {
+        category: "Cloud Services",
+        items: [
+          "AWS EC2",
+          "AWS S3",
+          "AWS CloudFront",
+          "AWS Lambda",
+          "AWS Route 53",
+          "AWS IAM",
+          "AWS Cognito",
+          "Firebase",
+          "Nginx",
+        ],
+      },
+      {
+        category: "Third-Party Services",
+        items: [
+          "Socket.io",
+          "Twilio",
+          "Stripe",
+          "PayPal",
+          "Google Map",
+          "Mailchimp",
+          "Zoom Video Calling",
+          "FourSquare",
+          "Ticket Master",
+          "Eventbrite",
+          "TripAdvisor",
+        ],
+      },
+      {
+        category: "Monitoring Tools",
+        items: [
+          "NewRelic",
+          "Google Cloud Monitoring",
+          "AWS CloudWatch",
+          "AWS CloudWatch Alarm",
+          "Sentry",
+        ],
+      },
+      {
+        category: "Development Tools",
+        items: ["VS Code", "DBeaver", "Webpack", "npm", "yarn", "Figma"],
+      },
+      {
+        category: "Testing Tools",
+        items: ["Jest", "Postman", "Mocha", "Chai"],
+      },
+      {
+        category: "CI/CD Tools",
+        items: ["Google CloudBuild", "GitHub Actions", "AWS CodeBuild"],
+      },
+      {
+        category: "Version Control",
+        items: ["Git", "Bitbucket", "GitHub", "GitLab"],
+      },
+      {
+        category: "Project Management",
+        items: ["JIRA", "Zoho", "Slack", "Agile Scrum"],
+      },
+    ],
+    workExperience: [
+      {
+        title: "Software Engineer",
+        company: "Arihant E Solutions Inc",
+        projectTitle: "April 2024 - April 2025",
+        achievements: [
+          "Developed cloud-native applications using AWS services including EC2, S3, Lambda, and API Gateway.",
+          "Ensured system scalability, security, configurability, and ease of maintenance.",
+          "Collaborated with cross-functional teams to achieve project goals and provided support to colleagues.",
+          "Resolved issues efficiently, demonstrating strong problem-solving skills.",
+        ],
+        technologies: [
+          "AWS EC2",
+          "AWS S3",
+          "AWS Lambda",
+          "AWS API Gateway",
+          "Node.js",
+          "React.js",
+        ],
+      },
+      {
+        title: "Senior Software Engineer",
+        company: "Simform Solutions",
+        projectTitle: "September 2017 - February 2024",
+        achievements: [
+          "Managed server infrastructure to ensure reliable performance, scalability, and security.",
+          "Led and mentored development teams, improving code quality by 30% through best practices.",
+          "Handled top client projects, overseeing development and ensuring client satisfaction.",
+          "Proactively resolved challenges and bottlenecks using creative problem-solving.",
+          "Collaborated with team members to meet project objectives and deadlines.",
+          "Optimized code for reusability and performance to maximize site efficiency.",
+        ],
+        technologies: [
+          "React.js",
+          "Next.js",
+          "Node.js",
+          "Express.js",
+          "Angular",
+          "Vue.js",
+          "PostgreSQL",
+          "MongoDB",
+          "MySQL",
+          "Redis",
+          "AWS",
+        ],
+      },
+      {
+        title: "Software Developer",
+        company: "Incite Solvents Pvt Ltd",
+        projectTitle: "March 2016 - August 2017",
+        achievements: [
+          "Developed front-end and back-end applications, focusing on reusable and testable components.",
+          "Managed an in-house project with automatic switch control functionality.",
+        ],
+        technologies: ["Node.js", "Angular.js", "JavaScript", "HTML", "CSS"],
+      },
+    ],
+    education: [
+      {
+        degree: "Master of Computer Application",
+        description:
+          "LJ Institute of Computer Application, Gujarat Technological University, 2012 - 2015",
+      },
+      {
+        degree: "Bachelor of Computer Application",
+        description:
+          "GLS Institute of Computer Application, Gujarat University, 2009 - 2012",
+      },
+    ],
+  },
 ];
