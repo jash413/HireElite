@@ -3110,9 +3110,9 @@ export const candidates: Candidate[] = [
     title: "Senior Software Engineer",
     avatar:
       "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=300&h=300",
-    location: "Not Specified",
+    location: "Remote",
     yearsOfExperience: "9 Years",
-    availability: "Not Specified",
+    availability: "Available Immediately",
     summary:
       "Experienced Senior Software Engineer with 9 years of expertise in full-stack development, proficient in HTML, CSS, React.js, Next.js, Angular, Vue.js, Node.js, and Express.js. Skilled in state management with Redux, UX design principles using Figma, and optimizing SQL/NoSQL databases. Expert in integrating microservices, RESTful APIs, and third-party platforms, with a deep understanding of software development patterns and Agile Scrum methodologies. Adept at building scalable, secure, and cloud-native applications using AWS services, with a proven track record of leading teams and enhancing code quality.",
     skills: [
