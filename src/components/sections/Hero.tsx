@@ -8,6 +8,20 @@ import { backendTechnologies, frontendTechnologies } from './technologies/techDa
 export default function Hero() {
   const allTechnologies = [...frontendTechnologies, ...backendTechnologies];
 
+  const scrollToContact = () => {
+    const contactSection = document.getElementById('contact');
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  const scrollToHowWeWork = () => {
+    const howWeWorkSection = document.getElementById('how-we-work');
+    if (howWeWorkSection) {
+      howWeWorkSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section className="relative min-h-screen pt-32 pb-20 overflow-hidden">
       {/* Background Effects */}
@@ -22,39 +36,51 @@ export default function Hero() {
       <div className="container relative mx-auto px-6">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
-            <div className="inline-flex items-center px-4 py-2 rounded-full bg-blue-50 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 mb-8 backdrop-blur-sm">
-              <Sparkles className="w-4 h-4 mr-2" />
-              <span className="text-sm font-medium">Top 1% JavaScript Talent</span>
+            {/* Header Offer */}
+            <div className="inline-flex items-center px-6 py-3 rounded-full bg-gradient-to-r from-green-500 to-emerald-600 text-white mb-6 backdrop-blur-sm shadow-lg">
+              <Sparkles className="w-5 h-5 mr-2 animate-pulse" />
+              <span className="text-lg font-bold">Get 25% OFF on Your First Month - Just Sample</span>
             </div>
             
             <h1 className="text-5xl md:text-7xl font-bold text-gray-900 dark:text-white mb-6 leading-tight">
-              Need Top{' '}
+              In 10 Minutes - Hire{' '}
               <GradientText className="inline-block">
-                JavaScript & TypeScript
+                Elite Software Developers
               </GradientText>
-              {' '}Developers?
+              {' '}in New York
             </h1>
             
-            <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-12 leading-relaxed max-w-3xl mx-auto">
+            <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8 leading-relaxed max-w-3xl mx-auto">
               Quickly augment your team with pre-vetted senior developers.
               Start risk-free with our 1-week trial period.
             </p>
+
+            {/* Support Notice */}
+            <div className="inline-flex items-center px-4 py-2 rounded-full bg-blue-50 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 mb-8 backdrop-blur-sm border-2 border-blue-200 dark:border-blue-700">
+              <span className="text-lg font-semibold">For Instant Support - Available 24/7</span>
+            </div>
           </div>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center mb-16">
-            <button className="group relative overflow-hidden px-8 py-4 text-lg font-medium text-white bg-gradient-to-r from-blue-600 to-purple-600 rounded-full shadow-lg hover:shadow-xl transition-all duration-300">
-              <a href='#contact' className="relative z-10 flex items-center justify-center">
+            <button 
+              onClick={scrollToContact}
+              className="group relative overflow-hidden px-8 py-4 text-lg font-medium text-white bg-gradient-to-r from-blue-600 to-purple-600 rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
+            >
+              <span className="relative z-10 flex items-center justify-center">
                 Hire Your Expert Now
                 <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
-              </a>
+              </span>
               <div className="absolute inset-0 bg-gradient-to-r from-blue-700 to-purple-700 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left" />
             </button>
             
-            <button className="group px-8 py-4 text-lg font-medium text-gray-900 dark:text-white bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm border-2 border-gray-200 dark:border-gray-700 rounded-full hover:shadow-xl transition-all duration-300">
-              <a href='#how-we-work' className="flex items-center">
+            <button 
+              onClick={scrollToHowWeWork}
+              className="group px-8 py-4 text-lg font-medium text-gray-900 dark:text-white bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm border-2 border-gray-200 dark:border-gray-700 rounded-full hover:shadow-xl transition-all duration-300"
+            >
+              <span className="flex items-center">
                 <Code2 className="w-5 h-5 mr-2 group-hover:rotate-12 transition-transform" />
                 View Our Process
-              </a>
+              </span>
             </button>
           </div>
 

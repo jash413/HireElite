@@ -3,8 +3,8 @@
 import { Code2 } from 'lucide-react';
 import { FadeIn } from '@/components/ui/animations';
 import GradientText from '@/components/ui/GradientText';
-import ModelCard from './ModelCard';
-import { hiringModels } from './modelData';
+import DeveloperCard from './DeveloperCard';
+import { developers } from './developerData';
 
 export default function HiringModels() {
   return (
@@ -18,26 +18,25 @@ export default function HiringModels() {
           <FadeIn>
             <div className="inline-flex items-center px-4 py-2 rounded-full bg-blue-50 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 mb-6">
               <Code2 className="w-4 h-4 mr-2" />
-              <span className="text-sm font-medium">Flexible Solutions</span>
+              <span className="text-sm font-medium">Available Developers</span>
             </div>
             
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
-              Choose Your Perfect <GradientText>Hiring Model</GradientText>
+              Meet Our <GradientText>Elite Developers</GradientText>
             </h2>
             
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              From hourly contracts to full-time developers, we offer flexible hiring models
-              to match your exact needs and budget.
+              Hand-picked software developers ready to join your team.
+              Each developer is thoroughly vetted for technical excellence.
             </p>
           </FadeIn>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {hiringModels.map((model, index) => (
-            <ModelCard
-              key={model.title}
-              {...model}
-              Icon={model.icon} // Pass Icon component directly
+          {developers.map((developer, index) => (
+            <DeveloperCard
+              key={developer.name}
+              developer={developer}
               index={index}
             />
           ))}
