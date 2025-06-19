@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { useScroll, useMotionValueEvent } from 'framer-motion';
-import { Menu, Phone } from 'lucide-react';
+import { Menu } from 'lucide-react';
 import { navItems } from './navItems';
 import NavLink from './NavLink';
 import MobileMenu from './MobileMenu';
@@ -16,13 +16,6 @@ export default function Navbar() {
   useMotionValueEvent(scrollY, "change", (latest) => {
     setIsScrolled(latest > 0);
   });
-
-  const scrollToContact = () => {
-    const contactSection = document.getElementById('contact');
-    if (contactSection) {
-      contactSection.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
 
   return (
     <header
@@ -48,21 +41,9 @@ export default function Navbar() {
             <div className="ml-4">
               <ThemeToggle />
             </div>
-            
-            {/* Support Button */}
-            <div className="ml-4 flex items-center space-x-2">
-              <div className="flex items-center px-3 py-2 bg-green-50 dark:bg-green-900/30 text-green-600 dark:text-green-400 rounded-full text-sm font-medium">
-                <Phone className="w-4 h-4 mr-2" />
-                <span>For Instant Support</span>
-              </div>
-              
-              <button 
-                onClick={scrollToContact}
-                className="px-6 py-2 bg-blue-600 dark:bg-blue-500 text-white rounded-full hover:bg-blue-700 dark:hover:bg-blue-600 transition-colors"
-              >
-                Hire Now
-              </button>
-            </div>
+            <button className="ml-4 px-6 py-2 bg-blue-600 dark:bg-blue-500 text-white rounded-full hover:bg-blue-700 dark:hover:bg-blue-600 transition-colors">
+              <a href='#contact'>Hire Now</a>
+            </button>
           </nav>
 
           <div className="md:hidden flex items-center space-x-4">

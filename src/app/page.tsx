@@ -2,6 +2,7 @@ import Hero from '../components/sections/Hero';
 import ExpertiseShowcase from '../components/sections/ExpertiseShowcase';
 import HowWeWork from '../components/sections/HowWeWork';
 import Technologies from '../components/sections/Technologies';
+import CandidatesSection from '../components/sections/candidates/CandidatesSection';
 import HiringModels from '../components/sections/hiring-models/HiringModels';
 import WhyUs from '../components/sections/why-us/WhyUs';
 import TestimonialsSection from '../components/sections/testimonials/TestimonialsSection';
@@ -14,6 +15,7 @@ export default function Home() {
       <ExpertiseShowcase />
       <HowWeWork />
       <Technologies />
+      {/* <CandidatesSection /> */}
       <HiringModels />
       <WhyUs />
       <TestimonialsSection />

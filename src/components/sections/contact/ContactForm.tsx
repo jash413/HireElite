@@ -55,7 +55,7 @@ export default function ContactForm() {
       <div className="relative bg-white/50 dark:bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8 border border-gray-200 dark:border-gray-700">
         {success && (
           <div className="mb-6 p-4 bg-green-50 dark:bg-green-900/30 text-green-600 dark:text-green-400 rounded-lg">
-            Thank you! We'll get back to you within 10 minutes.
+            Thank you! We'll get back to you soon.
           </div>
         )}
 
@@ -149,7 +149,7 @@ export default function ContactForm() {
                 <Loader2 className="w-5 h-5 animate-spin" />
               ) : (
                 <>
-                  Get Your Developer in 10 Minutes
+                  Submit Request
                   <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
                 </>
               )}
