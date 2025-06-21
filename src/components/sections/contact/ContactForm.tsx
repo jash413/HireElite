@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { useRouter } from 'next/navigation';
 import { motion } from 'framer-motion';
 import { ArrowRight, Loader2 } from 'lucide-react';
 import { submitContactForm } from '@/lib/api/contact';
@@ -8,15 +9,14 @@ import type { ContactFormData } from '@/types/contact';
 import { hiringModels } from './formData';
 
 export default function ContactForm() {
+  const router = useRouter();
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const [success, setSuccess] = useState(false);
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsSubmitting(true);
     setError(null);
-    setSuccess(false);
 
     const form = e.currentTarget;
     const formData = new FormData(form);
@@ -31,8 +31,8 @@ export default function ContactForm() {
 
     try {
       await submitContactForm(data);
-      setSuccess(true);
-      form.reset();
+      // Redirect to thank you page on success
+      router.push('/thank-you');
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Failed to submit form');
     } finally {
@@ -53,12 +53,6 @@ export default function ContactForm() {
       
       {/* Form Content */}
       <div className="relative bg-white/50 dark:bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8 border border-gray-200 dark:border-gray-700">
-        {success && (
-          <div className="mb-6 p-4 bg-green-50 dark:bg-green-900/30 text-green-600 dark:text-green-400 rounded-lg">
-            Thank you! We'll get back to you soon.
-          </div>
-        )}
-
         {error && (
           <div className="mb-6 p-4 bg-red-50 dark:bg-red-900/30 text-red-600 dark:text-red-400 rounded-lg">
             {error}
