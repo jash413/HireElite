@@ -3,5 +3,6 @@ export const navItems = [
   { name: 'How We Work', href: 'https://hireelite.dev/#how-we-work' },
   { name: 'Hiring Models', href: 'https://hireelite.dev/#hiring-models' },
   { name: 'What Sets Us Apart', href: 'https://hireelite.dev/#why-us' },
-  { name: 'Testimonials', href: 'https://hireelite.dev/#testimonials' }
+  { name: 'Testimonials', href: 'https://hireelite.dev/#testimonials' },
+  { name: 'Contact', href: '/contact' }
 ] as const;

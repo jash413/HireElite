@@ -1,6 +1,6 @@
 'use client';
 
-import { ArrowRight, Sparkles, Code2 } from 'lucide-react';
+import { ArrowRight, Sparkles, Code2, Phone } from 'lucide-react';
 import TechLogosBackground from '@/components/ui/backgrounds/TechLogosBackground';
 import GradientText from '@/components/ui/GradientText';
 import { backendTechnologies, frontendTechnologies } from './technologies/techData';
@@ -22,23 +22,38 @@ export default function Hero() {
       <div className="container relative mx-auto px-6">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
+            {/* Special Offer Badge */}
+            <div className="inline-flex items-center px-6 py-3 rounded-full bg-gradient-to-r from-green-500 to-emerald-500 text-white mb-6 backdrop-blur-sm shadow-lg">
+              <Sparkles className="w-5 h-5 mr-2 animate-pulse" />
+              <span className="text-lg font-bold">Get 25% OFF on Your First Month</span>
+            </div>
+            
             <div className="inline-flex items-center px-4 py-2 rounded-full bg-blue-50 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 mb-8 backdrop-blur-sm">
               <Sparkles className="w-4 h-4 mr-2" />
               <span className="text-sm font-medium">Top 1% JavaScript Talent</span>
             </div>
             
             <h1 className="text-5xl md:text-7xl font-bold text-gray-900 dark:text-white mb-6 leading-tight">
-              Need Top{' '}
+              In 10 Minutes - Hire{' '}
               <GradientText className="inline-block">
-                JavaScript & TypeScript
+                Elite Software Developers
               </GradientText>
-              {' '}Developers?
+              {' '}in New York
             </h1>
             
-            <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-12 leading-relaxed max-w-3xl mx-auto">
+            <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8 leading-relaxed max-w-3xl mx-auto">
               Quickly augment your team with pre-vetted senior developers.
               Start risk-free with our 1-week trial period.
             </p>
+
+            {/* Instant Support Line */}
+            <div className="flex items-center justify-center gap-2 mb-12 text-lg text-gray-700 dark:text-gray-300">
+              <Phone className="w-5 h-5 text-green-500" />
+              <span className="font-medium">Instant Support:</span>
+              <a href="tel:+918320052869" className="text-blue-600 dark:text-blue-400 hover:underline font-semibold">
+                (+91) 832-005-2869
+              </a>
+            </div>
           </div>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center mb-16">
