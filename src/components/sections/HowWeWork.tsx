@@ -12,7 +12,7 @@ export default function HowWeWork() {
       <div className="container relative mx-auto px-6">
         <div className="text-center mb-20">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
-            Hire Software Developers in <GradientText>2 Easy Steps</GradientText>
+            Hire Software Developers in <GradientText>4 Easy Steps</GradientText>
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto mb-16">
             Our streamlined process gets you from requirements to working with top developers in days, not weeks.

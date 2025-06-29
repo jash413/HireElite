@@ -21,15 +21,11 @@ export default function RootLayout({
 }) {
   const offerItems = [
     { icon: "🎉", text: "25% OFF First Month", highlight: "Limited Time Offer" },
-        { icon: "🎉", text: "25% OFF First Month", highlight: "Limited Time Offer" },
-        { icon: "🎉", text: "25% OFF First Month", highlight: "Limited Time Offer" },
-        { icon: "🎉", text: "25% OFF First Month", highlight: "Limited Time Offer" },
-        { icon: "🎉", text: "25% OFF First Month", highlight: "Limited Time Offer" }
-    // { icon: "⚡", text: "48-Hour Developer Onboarding", highlight: "Guaranteed" },
-    // { icon: "🔥", text: "Risk-Free 1-Week Trial", highlight: "No Questions Asked" },
-    // { icon: "💎", text: "Top 1% JavaScript Talent", highlight: "Pre-Vetted" },
-    // { icon: "🚀", text: "Start Your Project Today", highlight: "No Setup Fees" },
-    // { icon: "⭐", text: "100% Success Rate", highlight: "Money Back Guarantee" }
+    { icon: "⚡", text: "48-Hour Developer Onboarding", highlight: "Guaranteed" },
+    { icon: "🔥", text: "Risk-Free 1-Week Trial", highlight: "No Questions Asked" },
+    { icon: "💎", text: "Top 1% Talent", highlight: "Pre-Vetted" },
+    { icon: "🚀", text: "Start Your Project Today", highlight: "No Setup Fees" },
+    { icon: "⭐", text: "100% Success Rate", highlight: "Money Back Guarantee" }
   ];
 
   return (

@@ -30,11 +30,11 @@ export default function TestimonialsSection() {
               Real stories from real companies.
             </p>
 
-            {/* Location Badge */}
+            {/* Location Badge
             <div className="inline-flex items-center px-4 py-2 rounded-full bg-green-50 dark:bg-green-900/30 text-green-600 dark:text-green-400 mb-8">
               <MapPin className="w-4 h-4 mr-2" />
               <span className="text-sm font-medium">Serving New York & Beyond</span>
-            </div>
+            </div> */}
           </FadeIn>
         </div>
 

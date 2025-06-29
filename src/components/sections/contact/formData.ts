@@ -15,15 +15,15 @@ export const contactInfo: ContactInfoItem[] = [
     label: 'Email',
     value: 'info@hireelite.dev'
   },
-  {
-    icon: Phone,
-    label: 'Phone',
-    value: '(+91) 832-005-2869'
-  },
+  // {
+  //   icon: Phone,
+  //   label: 'Phone',
+  //   value: '(+91) 832-005-2869'
+  // },
   {
     icon: MapPin,
     label: 'Location',
-    value: 'India, IN 395009'
+    value: 'New York, USA'
   },
   {
     icon: MessageSquare,

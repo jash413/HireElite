@@ -33,7 +33,7 @@ export default function WhyUs() {
         </div>
 
         <FeatureGrid />
-        <GuaranteeShowcase />
+        {/* <GuaranteeShowcase /> */}
       </div>
     </section>
   );
