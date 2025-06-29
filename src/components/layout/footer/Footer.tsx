@@ -40,7 +40,7 @@ export default function Footer() {
           <Newsletter />
         </div>
 
-        {/* Payment Partner Section */}
+        {/* Payment Partner Section
         <motion.a
           href="https://www.refrens.com/gst-billing-software"
           target="_blank"
@@ -56,7 +56,7 @@ export default function Footer() {
             alt="Billing Powered by Refrens"
             className="h-12"
           />
-        </motion.a>
+        </motion.a> */}
 
         {/* Bottom Bar */}
         <motion.div
