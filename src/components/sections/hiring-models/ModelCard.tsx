@@ -5,21 +5,19 @@ import { ArrowRight } from 'lucide-react';
 import { ScaleIn } from '@/components/ui/animations';
 
 interface ModelCardProps {
-  Icon: LucideIcon; // Changed from icon prop to Icon component
+  Icon: LucideIcon;
   title: string;
   description: string;
   features: string[];
-  price: string;
   index: number;
   popular?: boolean;
 }
 
 export default function ModelCard({
-  Icon, // Changed from icon prop
+  Icon,
   title,
   description,
   features,
-  price,
   index,
   popular = false
 }: ModelCardProps) {
@@ -42,22 +40,15 @@ export default function ModelCard({
           <div className="flex flex-col h-full">
             {/* Icon */}
             <div className="inline-flex items-center justify-center w-16 h-16 rounded-xl bg-gradient-to-br from-blue-500 to-purple-500 text-white mb-6 group-hover:scale-110 transition-transform">
-              <Icon className="w-8 h-8" /> {/* Use Icon component directly */}
+              <Icon className="w-8 h-8" />
             </div>
 
-            {/* Rest of the component remains the same */}
             <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
               {title}
             </h3>
             <p className="text-gray-600 dark:text-gray-300 mb-6">
               {description}
             </p>
-
-            <div className="mb-6">
-              <div className="text-3xl font-bold text-gray-900 dark:text-white">
-                {price}
-              </div>
-            </div>
 
             <div className="space-y-4 mb-8 flex-grow">
               {features.map((feature) => (

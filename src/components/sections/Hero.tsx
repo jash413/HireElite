@@ -1,6 +1,6 @@
 'use client';
 
-import { ArrowRight, Sparkles, Code2 } from 'lucide-react';
+import { ArrowRight, Sparkles, Code2, Phone } from 'lucide-react';
 import TechLogosBackground from '@/components/ui/backgrounds/TechLogosBackground';
 import GradientText from '@/components/ui/GradientText';
 import { backendTechnologies, frontendTechnologies } from './technologies/techData';
@@ -9,7 +9,7 @@ export default function Hero() {
   const allTechnologies = [...frontendTechnologies, ...backendTechnologies];
 
   return (
-    <section className="relative min-h-screen pt-32 pb-20 overflow-hidden">
+    <section className="relative min-h-screen pt-48 pb-20 overflow-hidden">
       {/* Background Effects */}
       <div className="absolute inset-0 bg-gradient-to-br from-blue-50/20 via-purple-50/10 to-pink-50/20 dark:from-gray-800 dark:via-gray-900 dark:to-gray-800" />
       <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZGVmcz48cGF0dGVybiBpZD0iZ3JpZCIgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIiBwYXR0ZXJuVW5pdHM9InVzZXJTcGFjZU9uVXNlIj48cGF0aCBkPSJNIDQwIDAgTCAwIDAgMCA0MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJyZ2JhKDEwMSwgMTAwLCAyNTUsIDAuMSkiIHN0cm9rZS13aWR0aD0iMSIvPjwvcGF0dGVybj48L2RlZnM+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmlkKSIvPjwvc3ZnPg==')] opacity-30 dark:opacity-20" />
@@ -24,21 +24,30 @@ export default function Hero() {
           <div className="text-center mb-12">
             <div className="inline-flex items-center px-4 py-2 rounded-full bg-blue-50 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 mb-8 backdrop-blur-sm">
               <Sparkles className="w-4 h-4 mr-2" />
-              <span className="text-sm font-medium">Top 1% JavaScript Talent</span>
+              <span className="text-sm font-medium">Top 1% Talent</span>
             </div>
             
             <h1 className="text-5xl md:text-7xl font-bold text-gray-900 dark:text-white mb-6 leading-tight">
-              Need Top{' '}
+              In 10 Minutes - Hire{' '}
               <GradientText className="inline-block">
-                JavaScript & TypeScript
+                Elite Software Developers
               </GradientText>
-              {' '}Developers?
+              {' '}in New York
             </h1>
             
-            <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-12 leading-relaxed max-w-3xl mx-auto">
+            <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8 leading-relaxed max-w-3xl mx-auto">
               Quickly augment your team with pre-vetted senior developers.
               Start risk-free with our 1-week trial period.
             </p>
+
+            {/* Instant Support Line */}
+            <div className="flex items-center justify-center gap-2 mb-12 text-lg text-gray-700 dark:text-gray-300">
+              <Phone className="w-5 h-5 text-green-500" />
+              <span className="font-medium">Instant Support:</span>
+              <a href="tel:+918320052869" className="text-blue-600 dark:text-blue-400 hover:underline font-semibold">
+                (+91) 832-005-2869
+              </a>
+            </div>
           </div>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center mb-16">

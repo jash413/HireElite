@@ -12,7 +12,7 @@ export default function HowWeWork() {
       <div className="container relative mx-auto px-6">
         <div className="text-center mb-20">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
-            How We Make <GradientText>Hiring Simple</GradientText>
+            Hire Software Developers in <GradientText>2 Easy Steps</GradientText>
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto mb-16">
             Our streamlined process gets you from requirements to working with top developers in days, not weeks.
@@ -25,7 +25,7 @@ export default function HowWeWork() {
 
         <div className="text-center mt-20">
           <button className="inline-flex items-center justify-center px-8 py-4 text-lg font-medium text-white bg-gradient-to-r from-blue-600 to-purple-600 rounded-full shadow-lg hover:shadow-xl transition-all duration-300">
-            Start Hiring Now
+            <a href='#contact'>Start Hiring Now</a>
           </button>
         </div>
       </div>
