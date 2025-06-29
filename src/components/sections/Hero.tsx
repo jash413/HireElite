@@ -22,6 +22,12 @@ export default function Hero() {
       <div className="container relative mx-auto px-6">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
+            {/* Special Offer Badge */}
+            <div className="inline-flex items-center px-6 py-3 rounded-full bg-gradient-to-r from-green-500 to-emerald-500 text-white mb-6 backdrop-blur-sm shadow-lg">
+              <Sparkles className="w-5 h-5 mr-2 animate-pulse" />
+              <span className="text-lg font-bold">Get 25% OFF on Your First Month</span>
+            </div>
+            
             <div className="inline-flex items-center px-4 py-2 rounded-full bg-blue-50 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 mb-8 backdrop-blur-sm">
               <Sparkles className="w-4 h-4 mr-2" />
               <span className="text-sm font-medium">Top 1% Talent</span>
