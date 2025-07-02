@@ -3269,4 +3269,161 @@ export const candidates: Candidate[] = [
       },
     ],
   },
+  {
+    id: "18",
+    name: "Bhanupratap",
+    title: "QA Engineer",
+    avatar:
+      "https://images.unsplash.com/photo-1519085360753-afbfb3ee5884?auto=format&fit=crop&w=300&h=300",
+    location: "Remote",
+    yearsOfExperience: "5+ Years",
+    availability: "Available Immediately",
+    summary:
+      "Experienced QA professional with over 5 years in manual and automated web and mobile testing. Skilled in ensuring high-quality, bug-free applications through effective testing practices, including API testing, database testing, and cross-browser compatibility checks. Proficient in tools like Selenium, Appium, JMeter, and LambdaTest, with experience leading QA teams and collaborating with developers to deliver timely, high-quality software products.",
+    skills: [
+      {
+        category: "Testing Methods",
+        items: [
+          "Manual Testing",
+          "API Testing",
+          "Database Testing",
+          "Mobile Testing",
+          "Web Testing",
+          "Smoke Testing",
+          "Sanity Testing",
+          "Integration Testing",
+        ],
+      },
+      {
+        category: "Testing Tools",
+        items: [
+          "Selenium",
+          "Appium",
+          "TestNG",
+          "Apache JMeter",
+          "LambdaTest",
+          "Postman",
+        ],
+      },
+      {
+        category: "Programming Languages",
+        items: ["Java"],
+      },
+      {
+        category: "Frameworks & Technologies",
+        items: ["ASP.NET", "AWS"],
+      },
+    ],
+    workExperience: [
+      {
+        title: "Mobile Automation Test Engineer - Belocum",
+        company: "BeLocus",
+        projectTitle: "April 2025 - June 2025",
+        achievements: [
+          "Automated iOS app testing using Appium with Java to validate UI and functional workflows across simulators for a mobile app supporting on-demand relief staffing in healthcare and hospitality sectors.",
+        ],
+        technologies: ["Appium", "Java"],
+      },
+      {
+        title: "Quality Analyst - Port-Us",
+        company: "Travel Designer Group",
+        projectTitle: "April 2024 - April 2025",
+        achievements: [
+          "Managed test administration and flexible website updates for a global reservation system for hotels, apartments, transfers, and sightseeing activities.",
+          "Tested XML and third-party APIs using Postman to ensure seamless integration.",
+        ],
+        technologies: ["Postman", "XML API"],
+      },
+      {
+        title: "Senior QA & QA Lead - Learnerhub Application",
+        company: "BrainerHub Solutions",
+        projectTitle: "May 2023 - March 2024",
+        achievements: [
+          "Led the QA team to ensure high-quality delivery of a mobile application with various courses and a student tracking system.",
+          "Conducted functional and integration testing to validate application performance.",
+        ],
+        technologies: ["Appium", "TestNG"],
+      },
+      {
+        title: "Senior QA & QA Lead - ABA Healthcare",
+        company: "BrainerHub Solutions",
+        projectTitle: "October 2022 - June 2023",
+        achievements: [
+          "Performed functional and mobile testing for an app managing hospitalization expenses, covering pre and post-hospitalization costs for doctors, clinics, and hospitals.",
+          "Ensured timely delivery of quality software through effective test planning.",
+        ],
+        technologies: ["Appium", "Selenium"],
+      },
+      {
+        title: "Senior QA - Oneway Cab",
+        company: "ONeway.cab",
+        projectTitle: "June 2021 - October 2022",
+        achievements: [
+          "Performed live bug tracking and reporting for consumer and driver apps for a car rental service providing one-way AC taxi services.",
+          "Tested QMPOO consumer, partner, wholesaler, and retailer apps to ensure functionality.",
+        ],
+        technologies: ["Appium", "Selenium"],
+      },
+      {
+        title: "Senior QA - World of Mouth",
+        company: "ONeway.cab",
+        projectTitle: "July 2021 - October 2022",
+        achievements: [
+          "Tested driver and user-side apps for a public domain app using Google Maps API for location tracking and recommendations for places like restaurants and hotels.",
+        ],
+        technologies: ["Appium", "Google Maps API"],
+      },
+      {
+        title: "Junior QA - World of Mouth",
+        company: "Virtual Height IT Services Pvt. Ltd.",
+        projectTitle: "July 2020 - August 2021",
+        achievements: [
+          "Tested user-side app for a public domain app using Google Maps API for location tracking and recommendations for places like restaurants and hotels.",
+        ],
+        technologies: ["Appium", "Google Maps API"],
+      },
+      {
+        title: "Junior QA - Eventre",
+        company: "Virtual Height IT Services Pvt. Ltd.",
+        projectTitle: "August 2020 - October 2020",
+        achievements: [
+          "Tested ticket booking and webinar functionalities for an events platform to ensure reliability and user experience.",
+        ],
+        technologies: ["Selenium"],
+      },
+      {
+        title: "Junior QA - FightTheBugs",
+        company: "Virtual Height IT Services Pvt. Ltd.",
+        projectTitle: "June 2019 - November 2020",
+        achievements: [
+          "Conducted functional and performance testing for a game project involving killing dragons to complete levels and collect points, ensuring smooth gameplay.",
+        ],
+        technologies: ["Selenium", "Apache JMeter"],
+      },
+      {
+        title: "Junior QA - Five Minuteresume",
+        company: "Virtual Height IT Services Pvt. Ltd.",
+        projectTitle: "June 2019 - September 2019",
+        achievements: [
+          "Tested resume creation and download functionalities for a web-based resume maker with various purchase plans.",
+        ],
+        technologies: ["Selenium"],
+      },
+      {
+        title: "Student Project - Junagadh Tourism",
+        company: "Marwadi University",
+        projectTitle: "February 2017 - August 2017",
+        achievements: [
+          "Performed functional and usability testing for a travel guide platform for Junagadh city, developed as a final year college project.",
+        ],
+        technologies: ["Selenium"],
+      },
+    ],
+    education: [
+      {
+        degree: "Marwadi University",
+        description: "Marwadi University",
+      },
+    ],
+  },
 ];
