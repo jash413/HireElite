@@ -21,12 +21,12 @@ export default function ExpertiseShowcase() {
             </div>
             
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
-              Expertise That <GradientText>Delivers Results</GradientText>
+              When You Hire Software Developer <GradientText>Expertise That Delivers Results</GradientText>
             </h2>
             
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              Our developers bring years of experience and deep technical knowledge
-              to help you build exceptional software solutions.
+              When you hire software engineers through HireElite, you get developers with years of experience and deep technical knowledge
+              to help you build exceptional software solutions. Our New York talent brings proven expertise.
             </p>
           </FadeIn>
         </div>

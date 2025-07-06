@@ -8,6 +8,7 @@ import {
   Clock,
   Users,
   CheckCircle,
+  Calendar,
 } from "lucide-react";
 import { FadeIn } from "@/components/ui/animations";
 import GradientText from "@/components/ui/GradientText";
@@ -18,6 +19,13 @@ export default function FAQSection() {
   const midpoint = Math.ceil(faqData.length / 2);
   const leftColumnFAQs = faqData.slice(0, midpoint);
   const rightColumnFAQs = faqData.slice(midpoint);
+
+  const openCalendly = () => {
+    // @ts-ignore - Calendly is loaded from external script
+    window.Calendly?.initPopupWidget({
+      url: 'https://calendly.com/hireelite-info/30min'
+    });
+  };
 
   return (
     <section id="faq" className="relative py-32 overflow-hidden">
@@ -135,7 +143,7 @@ export default function FAQSection() {
           </div>
         </div>
 
-        {/* Enhanced Contact CTA */}
+        {/* Enhanced Contact CTA with Free Consultation */}
         <div className="text-center">
           <FadeIn>
             <div className="relative max-w-6xl mx-auto">
@@ -150,26 +158,45 @@ export default function FAQSection() {
                     Still Have <GradientText>Questions?</GradientText>
                   </h3>
 
-                  <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
+                  <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed mb-6">
                     Our team is here to help you find the perfect developers for
                     your project.
-                    <br />
-                    <span className="text-lg text-gray-500 dark:text-gray-400">
-                      Get in touch and let's discuss your requirements.
-                    </span>
+                  </p>
+
+                  {/* Free Consultation Highlight */}
+                  <div className="inline-flex items-center px-6 py-3 rounded-full bg-gradient-to-r from-green-500 to-emerald-500 text-white mb-6 shadow-lg">
+                    <Calendar className="w-5 h-5 mr-2" />
+                    <span className="text-lg font-bold">🎉 FREE 30-Minute Consultation</span>
+                  </div>
+
+                  <p className="text-lg text-gray-500 dark:text-gray-400 max-w-2xl mx-auto">
+                    Get personalized advice on hiring the right developers for your project. 
+                    No commitment required - just expert guidance to help you succeed.
                   </p>
                 </div>
 
                 {/* Action Buttons */}
                 <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12">
                   <motion.button
+                    onClick={openCalendly}
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     className="group px-10 py-5 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full hover:shadow-2xl transition-all duration-300 text-lg font-semibold"
                   >
+                    <span className="flex items-center">
+                      <Calendar className="w-6 h-6 mr-3" />
+                      Book Free Consultation
+                    </span>
+                  </motion.button>
+
+                  <motion.button
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                    className="group px-10 py-5 text-blue-600 dark:text-blue-400 border-2 border-blue-600 dark:border-blue-400 rounded-full hover:bg-blue-50 dark:hover:bg-blue-900/50 transition-all duration-300 text-lg font-semibold"
+                  >
                     <a href="#contact" className="flex items-center">
                       <Mail className="w-6 h-6 mr-3" />
-                      Contact Us Now
+                      Send Message
                     </a>
                   </motion.button>
                 </div>

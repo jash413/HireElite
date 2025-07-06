@@ -22,12 +22,13 @@ export default function HiringModels() {
             </div>
             
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
-              Choose Your Perfect <GradientText>Hiring Model</GradientText>
+              Choose How to Hire Software Developer <GradientText>Perfect Model</GradientText>
             </h2>
             
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
               From hourly contracts to full-time developers, we offer flexible hiring models
-              to match your exact needs and budget.
+              to match your exact needs and budget. When you hire software engineers in New York,
+              choose the model that works best for your project.
             </p>
           </FadeIn>
         </div>

@@ -22,12 +22,12 @@ export default function ContactSection() {
             </div>
             
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
-              Ready to Hire Your <GradientText>Perfect Developer?</GradientText>
+              Ready to Hire Software Developer <GradientText>in New York?</GradientText>
             </h2>
             
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
               Tell us about your needs and let us match you with the right developer.
-              Start with our risk-free trial period.
+              Start with our risk-free trial period when you hire software engineers through HireElite.
             </p>
           </FadeIn>
         </div>

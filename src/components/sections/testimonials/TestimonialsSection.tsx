@@ -22,19 +22,18 @@ export default function TestimonialsSection() {
             </div>
             
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
-              Trusted by <GradientText>Industry Leaders</GradientText>
+              Companies That <GradientText>Hire Software Engineers</GradientText> With Us
             </h2>
             
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto mb-6">
               See what our clients say about working with HireElite developers.
-              Real stories from real companies.
+              Real stories from companies who chose to hire a software programmer through our platform.
             </p>
 
-            {/* Location Badge
             <div className="inline-flex items-center px-4 py-2 rounded-full bg-green-50 dark:bg-green-900/30 text-green-600 dark:text-green-400 mb-8">
               <MapPin className="w-4 h-4 mr-2" />
               <span className="text-sm font-medium">Serving New York & Beyond</span>
-            </div> */}
+            </div>
           </FadeIn>
         </div>
 

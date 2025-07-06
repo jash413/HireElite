@@ -28,6 +28,7 @@ export default function Navbar() {
           <a 
             href="https://hireelite.dev/#"
             className="text-2xl font-bold text-blue-600 dark:text-blue-400"
+            title="HireElite - Hire Software Developer in New York"
           >
             HireElite
           </a>
@@ -41,8 +42,11 @@ export default function Navbar() {
             <div className="ml-4">
               <ThemeToggle />
             </div>
-            <button className="ml-4 px-6 py-2 bg-blue-600 dark:bg-blue-500 text-white rounded-full hover:bg-blue-700 dark:hover:bg-blue-600 transition-colors">
-              <a href='#contact'>Hire Now</a>
+            <button 
+              className="ml-4 px-6 py-2 bg-blue-600 dark:bg-blue-500 text-white rounded-full hover:bg-blue-700 dark:hover:bg-blue-600 transition-colors"
+              title="Hire Software Developer Now"
+            >
+              <a href='#contact'>Hire Software Developer</a>
             </button>
           </nav>
 
@@ -51,6 +55,7 @@ export default function Navbar() {
             <button
               onClick={() => setIsMobileMenuOpen(true)}
               className="p-2 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-full"
+              aria-label="Open menu"
             >
               <Menu className="w-6 h-6" />
             </button>

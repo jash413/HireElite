@@ -1,31 +1,41 @@
 import { CheckCircle, Calendar, Phone, Mail, Clock, ArrowRight, Sparkles } from 'lucide-react';
 import Link from 'next/link';
 import GradientText from '@/components/ui/GradientText';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "Thank You - Hire Software Developer Request Received | HireElite",
+  description: "Thank you for your request to hire software developer talent. We'll contact you within 10 minutes to help you hire software engineers in New York.",
+  robots: {
+    index: false,
+    follow: true,
+  },
+};
 
 export default function ThankYouPage() {
   const nextSteps = [
     {
       icon: Clock,
       title: 'Response Within 10 Minutes',
-      description: 'Our team will review your requirements and contact you within 10 minutes during business hours.',
+      description: 'Our team will review your requirements and contact you within 10 minutes during business hours to discuss how to hire software developer talent.',
       time: '10 min'
     },
     {
       icon: Calendar,
       title: 'Free Consultation Call',
-      description: 'Schedule a detailed discussion about your project needs and get matched with perfect developers.',
+      description: 'Schedule a detailed discussion about your project needs and get matched with perfect developers when you hire software engineers.',
       time: '30 min'
     },
     {
       icon: CheckCircle,
       title: 'Developer Matching',
-      description: 'We\'ll present you with 2-3 pre-vetted developers that match your specific requirements.',
+      description: 'We\'ll present you with 2-3 pre-vetted developers that match your specific requirements to hire a software programmer.',
       time: '24 hours'
     },
     {
       icon: ArrowRight,
       title: 'Start Your Project',
-      description: 'Begin working with your chosen developer within 48 hours with our risk-free trial period.',
+      description: 'Begin working with your chosen developer within 48 hours with our risk-free trial period in New York.',
       time: '48 hours'
     }
   ];
@@ -60,12 +70,13 @@ export default function ThankYouPage() {
           </div>
           
           <h1 className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white mb-6">
-            <GradientText>Thank You!</GradientText> Request Received
+            <GradientText>Thank You!</GradientText> Hire Software Developer Request Received
           </h1>
           
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto mb-8">
             Your request has been successfully submitted. We're excited to help you hire 
-            elite software developers in New York and get your project started.
+            elite software developers in New York and get your project started. When you hire software engineers 
+            through HireElite, success is guaranteed.
           </p>
 
           {/* Confirmation Details */}
@@ -132,11 +143,11 @@ export default function ThankYouPage() {
             
             <div className="relative bg-white/50 dark:bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8 border border-gray-200 dark:border-gray-700">
               <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-                Need Immediate Assistance?
+                Need Immediate Assistance to Hire Software Developer?
               </h3>
               
               <p className="text-gray-600 dark:text-gray-300 mb-6">
-                Can't wait for our response? Contact us directly for immediate support.
+                Can't wait for our response? Contact us directly for immediate support when you need to hire a software programmer.
               </p>
               
               <div className="space-y-4">
@@ -172,7 +183,7 @@ export default function ThankYouPage() {
             
             <div className="relative bg-white/50 dark:bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8 border border-gray-200 dark:border-gray-700">
               <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-                Your Benefits Secured
+                Your Benefits When You Hire Software Engineers
               </h3>
               
               <div className="space-y-4">
@@ -200,7 +211,7 @@ export default function ThankYouPage() {
 
               <div className="mt-6 p-4 bg-green-50 dark:bg-green-900/30 rounded-lg">
                 <p className="text-green-700 dark:text-green-300 font-medium text-center">
-                  🎉 Your spot is secured! We'll have developers ready within 48 hours.
+                  🎉 Your spot is secured! We'll have developers ready within 48 hours in New York.
                 </p>
               </div>
             </div>
@@ -218,7 +229,7 @@ export default function ThankYouPage() {
               </h3>
               
               <p className="text-gray-600 dark:text-gray-300 mb-6">
-                Learn more about our process and see what other clients are saying about HireElite.
+                Learn more about our process and see what other clients are saying about HireElite when they hire software developer talent.
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center">

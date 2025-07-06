@@ -7,11 +7,72 @@ import "../styles/globals.css";
 
 export const metadata: Metadata = {
   title: {
-    default: "HireElite - Top JavaScript & TypeScript Developers",
-    template: "%s | HireElite",
+    default: "Hire Software Developer - Top JavaScript & TypeScript Talent in New York | HireElite",
+    template: "%s | HireElite - Hire Software Developer in New York",
   },
   description:
-    "Hire top JavaScript and TypeScript developers for your projects. Expert React, Node.js, and full-stack developers with risk-free trial period.",
+    "Hire software developer talent in New York. Expert JavaScript, TypeScript, React, and Node.js developers. When you hire software engineers through HireElite, get risk-free trial period and guaranteed results. Best place to hire a software programmer.",
+  keywords: [
+    "hire software developer",
+    "hire software engineers", 
+    "hire a software programmer",
+    "New York developers",
+    "JavaScript developers",
+    "TypeScript developers",
+    "React developers",
+    "Node.js developers",
+    "software development New York",
+    "remote developers",
+    "full-stack developers"
+  ],
+  authors: [{ name: "HireElite" }],
+  creator: "HireElite",
+  publisher: "HireElite",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  metadataBase: new URL('https://hireelite.dev'),
+  alternates: {
+    canonical: '/',
+  },
+  openGraph: {
+    title: "Hire Software Developer - Top JavaScript & TypeScript Talent in New York",
+    description: "Hire software developer talent in New York. Expert JavaScript, TypeScript, React, and Node.js developers with risk-free trial period.",
+    url: 'https://hireelite.dev',
+    siteName: 'HireElite',
+    images: [
+      {
+        url: '/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'HireElite - Hire Software Developer in New York',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "Hire Software Developer - Top JavaScript & TypeScript Talent in New York",
+    description: "Hire software developer talent in New York. Expert JavaScript, TypeScript, React, and Node.js developers with risk-free trial period.",
+    images: ['/og-image.png'],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  verification: {
+    google: 'your-google-verification-code',
+  },
 };
 
 export default function RootLayout({
@@ -28,6 +89,47 @@ export default function RootLayout({
     { icon: "⭐", text: "100% Success Rate", highlight: "Money Back Guarantee" }
   ];
 
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "HireElite",
+    "url": "https://hireelite.dev",
+    "logo": "https://hireelite.dev/logo.png",
+    "description": "Hire software developer talent in New York. Expert JavaScript, TypeScript, React, and Node.js developers.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "addressCountry": "US"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+91-832-005-2869",
+      "contactType": "customer service",
+      "email": "info@hireelite.dev",
+      "areaServed": "Worldwide",
+      "availableLanguage": ["English"],
+    },
+    "sameAs": [
+      "https://twitter.com/HireElite",
+      "https://linkedin.com/company/HireElite",
+      "https://github.com/HireElite",
+    ],
+    "service": {
+      "@type": "Service",
+      "name": "Software Developer Hiring",
+      "description": "Professional software developer recruitment and hiring services",
+      "provider": {
+        "@type": "Organization",
+        "name": "HireElite"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "New York"
+      }
+    }
+  };
+
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
@@ -43,6 +145,12 @@ export default function RootLayout({
             gtag('js', new Date());
             gtag('config', 'AW-10797578968');
           `,
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(structuredData),
           }}
         />
         <link

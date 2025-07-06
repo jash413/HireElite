@@ -22,12 +22,12 @@ export default function WhyUs() {
             </div>
             
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
-              What Makes Us <GradientText>Different</GradientText>
+              Why Hire Software Developer <GradientText>Through HireElite</GradientText>
             </h2>
             
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
               We're committed to providing the best developer talent with a risk-free experience
-              and guaranteed results.
+              and guaranteed results. When you hire a software programmer with us, you get New York's finest talent.
             </p>
           </FadeIn>
         </div>

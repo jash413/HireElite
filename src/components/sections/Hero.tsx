@@ -31,16 +31,16 @@ export default function Hero() {
             </div>
 
             <h1 className="text-5xl md:text-7xl font-bold text-gray-900 dark:text-white mb-6 leading-tight">
-              In 10 Minutes - Hire{" "}
+              In 10 Minutes - Hire Software Developer{" "}
               <GradientText className="inline-block">
-                Elite Software Developers
+                Elite Talent
               </GradientText>{" "}
               in New York
             </h1>
 
             <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8 leading-relaxed max-w-3xl mx-auto">
-              Quickly augment your team with pre-vetted senior developers. Start
-              risk-free with our 1-week trial period.
+              When you need to hire software engineers in New York, choose HireElite. 
+              Our pre-vetted developers start risk-free with our 1-week trial period.
             </p>
 
             {/* Instant Support Line */}
@@ -62,7 +62,7 @@ export default function Hero() {
                 href="#contact"
                 className="relative z-10 flex items-center justify-center"
               >
-                Hire Your Expert Now
+                Hire Software Developer Now
                 <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
               </a>
               <div className="absolute inset-0 bg-gradient-to-r from-blue-700 to-purple-700 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left" />
