@@ -5,9 +5,11 @@ export const siteConfig = {
   url: 'https://hireelite.dev',
   ogImage: 'https://hireelite.dev/og-image.png',
   links: {
-    twitter: 'https://twitter.com/HireElite',
-    github: 'https://github.com/HireElite',
-    linkedin: 'https://linkedin.com/company/HireElite'
+    instagram: 'https://www.instagram.com/hireelite/',
+    facebook: 'https://www.facebook.com/hireelite',
+    twitter: 'https://x.com/Hire_Elite',
+    youtube: 'https://www.youtube.com/@Hire-Elite',
+    linkedin: 'https://www.linkedin.com/company/hireelite'
   }
 };
 
@@ -27,8 +29,10 @@ export const jsonLd = {
     availableLanguage: ['English'],
   },
   sameAs: [
-    'https://twitter.com/HireElite',
-    'https://linkedin.com/company/HireElite',
-    'https://github.com/HireElite',
+    'https://www.instagram.com/hireelite/',
+    'https://www.facebook.com/hireelite',
+    'https://x.com/Hire_Elite',
+    'https://www.youtube.com/@Hire-Elite',
+    'https://www.linkedin.com/company/hireelite',
   ],
 };
