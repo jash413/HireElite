@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   title: "Thank You - Hire Software Developer Request Received | HireElite",
   description:
     "Thank you for your request to hire software developer talent. We'll contact you within 10 minutes to help you hire software engineers in New York.",
-
+  keywords: [], // Override inherited keywords with empty array
   alternates: {
     canonical: "/thank-you",
   },
