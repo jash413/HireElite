@@ -7,7 +7,7 @@ import "../styles/globals.css";
 
 export const metadata: Metadata = {
   title: {
-    default: "In 10 Minutes - Hire Elite Software Developers in New York.",
+    default: "In 10 Minutes - Hire Elite Software Developers in New York",
     template: "%s | HireElite - Hire Elite Software Developers in New York",
   },
   description:
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "In 10 Minutes - Hire Elite Software Developers in New York.",
+    title: "In 10 Minutes - Hire Elite Software Developers in New York",
     description:
       "Skip the wait. Instantly hire software developers and top software engineers in New York. Try risk-free with our 1-week trial & get 25% OFF your first month.",
     images: ["/og-image.png"],
