@@ -7,6 +7,20 @@ import SkillsGrid from "@/components/cv/SkillsGrid";
 import ProjectsShowcase from "@/components/cv/ProjectsShowcase";
 import EducationSection from "@/components/cv/EducationSection";
 import QuickActions from "@/components/cv/QuickActions";
+import { Metadata } from "next";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: { id: string };
+}): Promise<Metadata> {
+  return {
+    robots: {
+      index: false,
+      follow: false,
+    },
+  };
+}
 
 export default async function CandidatePage({
   params,
