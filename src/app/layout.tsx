@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "In 10 Minutes - Hire Elite Software Developers in New York.",
+    title: "In 10 Minutes - Hire Elite Software Developers in New York",
     description:
       "Skip the wait. Instantly hire software developers and top software engineers in New York. Try risk-free with our 1-week trial & get 25% OFF your first month.",
     url: "https://hireelite.dev",
