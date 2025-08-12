@@ -4,14 +4,17 @@ import GradientText from '@/components/ui/GradientText';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Contact Us - Hire Software Developer in New York | HireElite",
-  description: "Ready to hire software developer talent? Contact HireElite to hire software engineers in New York. Get started with our risk-free trial when you hire a software programmer through our platform.",
-  keywords: "hire software developer contact, hire software engineers New York, hire a software programmer, contact HireElite, New York developers",
+  title: "Contact Us - Hire Elite",
+  description: "Instantly hire top software developers and engineers in New York. We provide vetted talent, so you can skip the wait and start building now.",
+  keywords: "Contact Us HireElite",
   openGraph: {
-    title: "Contact Us - Hire Software Developer in New York | HireElite",
-    description: "Ready to hire software developer talent? Contact HireElite to hire software engineers in New York.",
+    title: "Contact Us - Hire Elite",
+    description: "Instantly hire top software developers and engineers in New York. We provide vetted talent, so you can skip the wait and start building now.",
     url: 'https://hireelite.dev/contact',
   },
+  alternates: {
+    canonical: 'https://hireelite.dev/contact'
+  }
 };
 
 export default function ContactPage() {

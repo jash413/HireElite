@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { useScroll, useMotionValueEvent } from 'framer-motion';
 import { Menu } from 'lucide-react';
 import { navItems } from './navItems';
+import Link from 'next/link';
 import NavLink from './NavLink';
 import MobileMenu from './MobileMenu';
 import ThemeToggle from '@/components/ThemeToggle';
@@ -42,12 +43,13 @@ export default function Navbar() {
             <div className="ml-4">
               <ThemeToggle />
             </div>
-            <button 
+            <Link 
+              href="/contact"
               className="ml-4 px-6 py-2 bg-blue-600 dark:bg-blue-500 text-white rounded-full hover:bg-blue-700 dark:hover:bg-blue-600 transition-colors"
               title="Hire Software Developer Now"
             >
-              <a href='#contact'>Hire Software Developer</a>
-            </button>
+              Hire Software Developer
+            </Link>
           </nav>
 
           <div className="md:hidden flex items-center space-x-4">

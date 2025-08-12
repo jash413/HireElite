@@ -41,9 +41,9 @@ export const footerSections: FooterSection[] = [
 ];
 
 export const socialLinks: SocialLink[] = [
-  // { icon: Github, href: '#', label: 'GitHub' },
-  // { icon: Linkedin, href: '#', label: 'LinkedIn' },
-  // { icon: Twitter, href: '#', label: 'Twitter' },
-  // { icon: Youtube, href: '#', label: 'YouTube' },
-  // { icon: Instagram, href: '#', label: 'Instagram' }
+  { icon: Instagram, href: 'https://www.instagram.com/hireelite/', label: 'Instagram' },
+  { icon: Linkedin, href: 'https://www.linkedin.com/company/hireelite', label: 'LinkedIn' },
+  { icon: Youtube, href: 'https://www.youtube.com/@Hire-Elite', label: 'YouTube' },
+  { icon: Twitter, href: 'https://x.com/Hire_Elite', label: 'X' },
+  { icon: Github, href: 'https://www.facebook.com/hireelite', label: 'Facebook' }
 ];
